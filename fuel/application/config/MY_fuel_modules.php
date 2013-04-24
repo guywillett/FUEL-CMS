@@ -20,7 +20,11 @@ $config['modules']['projects'] = array(
 );
 
 *********************** EXAMPLE ***********************************/
-
+$config['modules']['images'] = array(
+'instructions' =>'Add Images for the Carousel and main pages here',
+'default_col' => 'carousel',
+'default_order' =>'asc'
+);
 
 
 /*********************** OVERWRITES ************************************/

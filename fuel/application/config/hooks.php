@@ -9,7 +9,14 @@
 |	http://codeigniter.com/user_guide/general/hooks.html
 |
 */
-
+$hook['post_controller_constructor'][]= array(
+						'class' => 'doLanguage',
+						'function' => 'doLanguage',
+						'filename' => 'doLanguage.php',
+						'filepath' => 'hooks',
+						'params' => array(),
+						//'module' => 'app',
+						);
 /* Example of a module hook for a module named projects
 $hook['before_create_projects'] = array(
 								'class'    => 'Test_hooks',
