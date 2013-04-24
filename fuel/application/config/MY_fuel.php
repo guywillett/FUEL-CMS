@@ -26,6 +26,11 @@ $config['modules_allowed'] = array(
 	'user_guide',
 		'blog',
 		'backup',
+		//'campaign_monitor',
+		//'clicky',
+		//'google_analytics',
+		//'phpmyadmin',
+		//'wordpress',
 );
 
 $config['dashboards'][] = 'backup';
