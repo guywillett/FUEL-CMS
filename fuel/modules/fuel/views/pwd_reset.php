@@ -21,13 +21,15 @@
 <body>
 <div id="login">
 	<div id="login_inner">
-		<img src="<?=img_path('fuel_logo.jpg')?>" width="400" height="100" alt="FUEL CMS" border="0" id="login_logo" />
+		<!--<img src="<?=img_path('fuel_logo.jpg')?>" width="400" height="100" alt="FUEL CMS" border="0" id="login_logo" />-->
+        <img src="<?=img_path('crunchcmslogo4.png')?>" width="424" height="124" alt="CRUNCH CMS" border="0" id="login_logo" />
 		<div id="login_notification" class="notification">
 			<?=$notifications?>
 		</div>
 		<?=$form?>
 	</div>
-	<div id="login_footer"><?=$this->load->module_view('fuel', '_blocks/fuel_footer_copyright', array(), true) ?></div>
+	<!--<div id="login_footer"><?=$this->load->module_view('fuel', '_blocks/fuel_footer_copyright', array(), true) ?></div>-->
+    <div id="login_footer"><?=$this->load->module_view('fuel', '_blocks/crunch_footer_copyright', array(), TRUE) ?></div>
 </div>
 </body>
 </html>

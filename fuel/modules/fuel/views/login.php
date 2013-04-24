@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <?php $page_title = "CRUNCH CMS"; ?>
  	<title><?=$page_title?></title>
 	<?=css('fuel', FUEL_FOLDER)?>
 	<?php if (!empty($css)) : ?>
@@ -21,7 +22,8 @@
 <body>
 <div id="login">
 	<div id="login_inner">
-		<img src="<?=img_path('fuel_logo.jpg')?>" width="400" height="100" alt="FUEL CMS" border="0" id="login_logo" />
+		<!--<img src="<?=img_path('fuel_logo.jpg')?>" width="400" height="100" alt="FUEL CMS" border="0" id="login_logo" />-->
+        <img src="<?=img_path('crunchcmslogo4.png')?>" width="424" height="124" alt="CRUNCH CMS" border="0" id="login_logo" />
 		<div id="login_notification" class="notification">
 			<?=$notifications?>
 		</div>
@@ -33,7 +35,8 @@
 			<a href="<?=fuel_url('login/pwd_reset')?>" id="forgotten_pwd"><?=lang('login_forgot_pwd')?></a>
 		<?php endif; ?>
 	</div>
-	<div id="login_footer"><?=$this->load->module_view('fuel', '_blocks/fuel_footer_copyright', array(), TRUE) ?></div>
+	<!--<div id="login_footer"><?=$this->load->module_view('fuel', '_blocks/fuel_footer_copyright', array(), TRUE) ?></div>-->
+    <div id="login_footer"><?=$this->load->module_view('fuel', '_blocks/crunch_footer_copyright', array(), TRUE) ?></div>
 </div>
 </body>
 </html>
