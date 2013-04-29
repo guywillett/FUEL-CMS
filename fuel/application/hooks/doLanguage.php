@@ -15,6 +15,7 @@ require_once(FUEL_PATH."libraries/Fuel_language.php");
 class doLanguage{
 	function doLanguage(){
 		@define("SELECTED_LANGUAGE", "english");
+		@define("HAS_MULTIPLE", FALSE);
 		
 		}
 	}

@@ -37,7 +37,7 @@
 | in the URL cannot be matched to a valid route.
 |
 */
-
+$route['portfolio/:any'] = 'portfolio/index';
 
 $route['default_controller'] = 'fuel/page_router';
 $route['404_override'] = 'fuel/page_router';

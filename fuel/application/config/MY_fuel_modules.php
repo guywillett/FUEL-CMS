@@ -26,6 +26,11 @@ $config['modules']['images'] = array(
 'default_order' =>'asc'
 );
 
+$config['modules']['portfolio'] = array(
+'instructions' =>'Add Text for the Portfolio Item here, add its images in the Images section.',
+'default_col' => 'precedence',
+'default_order' =>'asc'
+);
 
 /*********************** OVERWRITES ************************************/
 $config['module_overwrites']['categories']['hidden'] = TRUE; // change to FALSE if you want to use the generic categories module

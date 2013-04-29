@@ -5,7 +5,7 @@
 | General
 |--------------------------------------------------------------------------
 */
-$lang['fuel_page_title'] = 'FUEL CMS';
+$lang['fuel_page_title'] = 'CRUNCH CMS';
 $lang['logged_in_as'] = 'Logged in as:';
 $lang['logout'] = 'Logout';
 $lang['fuel_developed_by'] = 'FUEL CMS version %1s is developed by <a href="http://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> and built upon the <a href="http://www.codeigniter.com" target="_blank">CodeIgniter</a> framework.';
@@ -81,9 +81,9 @@ $lang['logout_restore_original_user'] = 'Restore original user';
 |--------------------------------------------------------------------------
 */
 $lang['section_dashboard'] = 'Dashboard';
-$lang['dashboard_intro'] = 'Welcome to FUEL CMS.';
+$lang['dashboard_intro'] = 'Welcome to CRUNCH CMS.';
 $lang['dashboard_hdr_latest_activity'] = 'Latest Activity';
-$lang['dashboard_hdr_latest_news'] = 'Latest FUEL News';
+$lang['dashboard_hdr_latest_news'] = 'Latest CRUNCH News';
 $lang['dashboard_hdr_modified'] = 'Recently Modified Pages';
 $lang['dashboard_hdr_site_docs'] = 'Site Documentation';
 $lang['dashboard_change_pwd'] = 'Change password';
@@ -116,10 +116,10 @@ $lang['section_my_modules'] = 'My Modules';
 |--------------------------------------------------------------------------
 */
 $lang['pwd_reset'] = 'An email to confirm your password reset is on its way.';
-$lang['pwd_reset_subject'] = "FUEL admin password reset request";
-$lang['pwd_reset_email'] = "Click the following link to confirm the reset of your FUEL password:\n%1s";
-$lang['pwd_reset_subject_success'] = "FUEL admin password reset success";
-$lang['pwd_reset_email_success'] = "Your FUEL password has been reset to %1s. To change your password, login to the FUEL CMS admin with this password and click on your login name in the upper right to access your profile information.";
+$lang['pwd_reset_subject'] = "CRUNCH admin password reset request";
+$lang['pwd_reset_email'] = "Click the following link to confirm the reset of your CRUNCH password:\n%1s";
+$lang['pwd_reset_subject_success'] = "CRUNCH admin password reset success";
+$lang['pwd_reset_email_success'] = "Your CRUNCH password has been reset to %1s. To change your password, login to the CRUNCH CMS admin with this password and click on your login name in the upper right to access your profile information.";
 $lang['pwd_reset_success'] = 'Your password was successfully reset and an email has been sent to you with the new password.';
 $lang['cache_cleared'] = "Site cache cleared explicitly";
 
@@ -328,8 +328,8 @@ $lang['permissions_heading'] = 'Permissions';
 $lang['form_label_language'] = 'Language';
 $lang['form_label_send_email'] = 'Send Email';
 $lang['btn_send_email'] = 'Send Email';
-$lang['new_user_email_subject'] = 'Your FUEL CMS account has been created';
-$lang['new_user_email'] = 'Your FUEL CMS account has been created. You can login with the following information:
+$lang['new_user_email_subject'] = 'Your CRUNCH CMS account has been created';
+$lang['new_user_email'] = 'Your CRUNCH CMS account has been created. You can login with the following information:
 Login URL:'.site_url('fuel/login').'
 User name: %1s
 Password: %2s';
@@ -342,7 +342,7 @@ $lang['error_cannot_deactivate_yourself'] = 'You cannot deactivate yourself.';
 | Permissions
 |--------------------------------------------------------------------------
 */
-$lang['permissions_instructions'] = 'Here you can manage the permissions for FUEL modules and later assign them to users.';
+$lang['permissions_instructions'] = 'Here you can manage the permissions for CRUNCH modules and later assign them to users.';
 $lang['form_label_other_perms'] = 'Generate related simple<br /> module permissions';
 
 /*

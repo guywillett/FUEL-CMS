@@ -52,6 +52,8 @@ Class Form_builder {
 	public $text_size_limit = 40; // text size for a text input
 	public $submit_name = '';   // submit id and name values
 	public $submit_value = 'Submit'; // submit value  (what the button says)
+	public $submit_class = 'submit';
+	
 	public $cancel_value = ''; // cancel value (what the button says)
 	public $cancel_action = ''; // what the cancel button does
 	public $reset_value = ''; // reset button value  (what the button says)
@@ -879,7 +881,7 @@ Class Form_builder {
 				{
 					$submit_id = $this->name_prefix.'--'.$submit_id;
 				}
-				$str .= $this->form->$submit_btn($this->submit_value, $submit_name, array('class' => 'submit', 'id' => $submit_id));
+				$str .= $this->form->$submit_btn($this->submit_value, $submit_name, array('class' => $this->submit_class, 'id' => $submit_id));
 			}
 		}
 		if (!empty($this->other_actions)) $str .= $this->other_actions;

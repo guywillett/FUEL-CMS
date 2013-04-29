@@ -2,11 +2,11 @@ Options +FollowSymLinks
 
 <IfModule mod_rewrite.c>
 	RewriteEngine On
-	  #RewriteCond %{HTTP_HOST} !^www\..+$ [NC]
-#RewriteRule . http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+	  RewriteCond %{HTTP_HOST} !^www\..+$ [NC]
+RewriteRule . http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 # uncomment the above 2 lines, and adjust to RewriteBase /  for stuff on server
-	# RewriteBase /
-	RewriteBase /chamsoft-website/
+	 RewriteBase /
+	#RewriteBase /chamsoft-website/
 
 	<Files .*>
 		Order Deny,Allow

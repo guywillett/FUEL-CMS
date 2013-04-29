@@ -45,6 +45,12 @@ $config['default_pwd'] = 'admin';
 // $config['max_page_params'] = array('about/news/' => 1);
 $config['max_page_params'] = 0;
 
+// turn on cache. Can be TRUE/FALSE or cms
+$config['use_page_cache'] = TRUE;
+
+// how long to cache the page. A value of 0 means forever until the page or other modules have been updated
+$config['page_cache_ttl'] = 100;
+
 // will auto search view files. 
 // If the URI is about/history and the about/history view 
 // does not exist but about does, it will render the about page
