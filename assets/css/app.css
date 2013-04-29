@@ -1948,9 +1948,11 @@ table th[class*="span"],
   display: inline-block;
   width: 14px;
   height: 14px;
-  *margin-right: .3em;
+  /**margin-right: .3em;*/
+  margin-right: .3em;
   line-height: 14px;
-  vertical-align: text-top;
+  /*vertical-align: text-top;*/
+  vertical-align: text-middle;
   background-image: url("/assets/images/glyphicons/glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;

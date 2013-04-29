@@ -98,18 +98,34 @@
 	<div class="row">
 		<div class="span4 featured">
 			<!--<img src="assets/images/4.jpg" alt="" />-->
-			<h2><i class="icon-ok"></i> Valid HTML5/CSS <!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
-			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+			<h2><i class="icon-ok"></i> Websites <!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
+			<p>Use your own designers or ours, we don't mind - the important thing is a top quality product.<br/><br/>  The majority of our websites use Crunch CMS (our Content Management System). This makes updating content and keeping it SEO friendly a breeze. It also means you can have a client log-in area and stuff like that...</p>
 		</div><!--/span4-->
 		<div class="span4 featured">
 			<!--<img src="assets/images/3.jpg" alt="" />-->
-			<h2><i class="icon-bookmark"></i> Commented Code<!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
-			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+			<h2><i class="icon-cogs"></i> Web Apps<!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
+			<p>Booking systems, invoicing, automatic emailing, document storage and serving, contact management, calendars - the world is your oyster. It is all about making your workflow more friendly and efficient. </p>
 		</div><!--span4-->
 		<div class="span4 featured">
 			<!--<img src="assets/images/5.jpg" alt="" />	-->	
-			<h2><i class="icon-laptop"></i> Fully Responsive<!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
-			<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac ligula porta felis cursus commodo, tortor mauris condimentum nibh, ut fermentum.</p>
+			<h2><i class="icon-laptop"></i> Fully Responsive Designs<!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
+			<p>We can build fully responsive websites - just like this one! Go ahead and resize your browser window and see how it <i>responds</i>.<br/><br/>
+            With an ever increasing proportion of visitors using tablets and smart phones, catering for these users is a really good idea. Responsive design means one website that optimizes itself for the device being used. Cool, huh?</p>
+		</div><!--/span4-->
+        <div class="span4 featured">
+			<!--<img src="assets/images/5.jpg" alt="" />	-->	
+			<h2><i class="icon-bookmark-empty"></i> FileMaker<!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
+            <p>A cross platform, easy-to-use database system.<br/><br/>An initial outlay for the software is quickly recouped in time saved developing your project. From contact management, to booking systems, invoicing and even online shops. FileMaker can be integrated with other popular technologies like MySQL and has a PHP api, so we can build a web-based front end too!</p>
+		</div><!--/span4-->
+        <div class="span4 featured">
+			<!--<img src="assets/images/5.jpg" alt="" />	-->	
+			<h2><i class="icon-tablet"></i> Mobile<!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
+            <p>Sometimes you need access to parts of a mobile device's system that websites just can't do.<br/><br/>  Or you specifically want your app to be available on GooglePlay/Apple Appstore. Step in PhoneGap (or Kivvy if we use Python :) ). We can write the app once in JavaScript and wrap it with PhoneGap before deploying the same code for both Android and iOS.</p>
+		</div><!--/span4-->
+        <div class="span4 featured">
+			<!--<img src="assets/images/5.jpg" alt="" />	-->	
+			<h2><i class="icon-cloud"></i> Web Hosting<!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
+            <p>We can look after domain registration, hosting your website and, if you want, your email too.<br/><br/>Located in UK datacentres (great for SEO and performance), we make sure our servers are secure, backed up, fast and never overloaded</p>
 		</div><!--/span4-->
 	</div><!--/row-->
 	
