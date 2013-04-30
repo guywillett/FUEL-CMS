@@ -18,7 +18,8 @@
 		$vars['layout'] = 'main';
 		//$vars['models'] = array('images_model', 'portfolio_model');
 		//$vars['models'] = 'portfolio_model';
-		$vars['page_title'] = 'chamsoft : portfolio';
+		$vars['page_title'] = 'chamsoft : portfolio : '.$vars['portfolio'][0]['name'];
+		$vars['meta_description'] = "Chamsoft web development, web apps, websites and filemaker development in London, UK and Chamonix. Responsive designs for websites and mobile applications. ".$vars['portfolio'][0]['name'];
 		
 		//$this->load->view('portfolio',$vars);
 		

@@ -183,14 +183,15 @@
         <?php $posts = $CI->fuel->blog->get_recent_posts(3);?>
         <?php if(! empty($posts)):?>
         <?php foreach($posts as $p):?>
+        <?php $link = date("Y/m/d", strtotime($p->post_date)).'/'.$p->slug;  ?>
 			<div class="row blog-post">
 				<div class="span3">
-					<a href="<?=$this->fuel->blog->url($p->slug)?>"><img src="<?=img_path($p->list_image)?>" alt="<?=$p->title?>" /></a>
+					<a href="<?=$this->fuel->blog->url($link)?>"><img src="<?=img_path($p->list_image)?>" alt="<?=$p->title?>" /></a>
 				</div><!--/row-->
 				<div class="span6">
-					<h3><a href="<?=$this->fuel->blog->url($p->slug)?>"><?=$p->title?> </a></h3>
+					<h3><a href="<?=$this->fuel->blog->url($link)?>"><?=$p->title?> </a></h3>
 					<blockquote><small>Posted by <cite><a href="#"><?=$p->author_name?></a></cite> on <?=date("jS F Y", strtotime($p->post_date))?> in <a href="#"><?=$p->categories_linked?></a></a></small>
-						<p><?=$p->excerpt?><br><a href="<?=$this->fuel->blog->url($p->slug)?>">Keep reading...</a></p>
+						<p><?=$p->excerpt?><br><a href="<?=$this->fuel->blog->url($link)?>">Keep reading...</a></p>
 					</blockquote>
 				</div><!--/span6-->
 			</div><!--/row-->

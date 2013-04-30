@@ -21,8 +21,9 @@
 		
 		$vars['layout'] = 'main';
 		//$vars['models'] = array('images_model', 'portfolio_model');
-		$vars['models'] = 'portfolio_model';
-		$vars['page_title'] = 'chamsoft';
+		//$vars['models'] = 'portfolio_model';
+		$vars['page_title'] = 'chamsoft : web development';
+		$vars['meta_description'] = "Chamsoft web development, web apps, websites and filemaker development in London, UK and Chamonix. Responsive designs for websites and mobile applications.";
 		
 		/*$fields = array();
 		$fields['name'] = array('required' => TRUE, 'type' => 'text','display_label' => FALSE, 'class' => 'input-block-level', 'placeholder' => 'Name');
