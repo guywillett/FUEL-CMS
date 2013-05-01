@@ -1952,7 +1952,7 @@ table th[class*="span"],
   margin-right: .3em;
   line-height: 14px;
   /*vertical-align: text-top;*/
-  vertical-align: text-middle;
+  vertical-align: text-top;
   background-image: url("/assets/images/glyphicons/glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
@@ -5723,10 +5723,14 @@ footer .footer-bar .tweet img {
 .widget ul li {
   list-style-type: none;
   line-height: 25px;
+  /*line-height:15px;*/
 }
 .widget a.btn {
   margin-bottom: 15px;
 }
+/***********GUY************/
+.widget ul i{
+	vertical-align: baseline;}
 /*----------------- BLOG --------------------------------------------------*/
 .blog-post {
   margin-bottom: 25px;
