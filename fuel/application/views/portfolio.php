@@ -12,24 +12,55 @@
 </div><!--/page-header-->
 
 <div class="container inner-page" id="portfolio-inner">
-	<div class="row margin-bottom25">
-		<div class="span9">
-			<div id="portfolioCarousel" class="carousel slide">
+	<div class="row margin-bottom25" id="portfolio_tem">
+		<!--<div class="span9">
+			<div id="portfolioCarousel" class="carousel slide">-->
 				<!-- Carousel items -->
                 <?php foreach($image as $i): ?>
-				<div class="carousel-inner">
+				<!--<div class="carousel-inner">
 					<div class="<?=$active?> item">
 						<img src="<?=img_path('general/'.$i['photo'])?>" alt="" />
-					</div><!--/item-->
-                 <?php $active = ""; ?>
+					</div>--><!--/item-->
+                 <!--<?php $active = ""; ?>
                 <?php endforeach ?>
-				</div><!--/carousel-inner-->
+				</div>--><!--/carousel-inner-->
 				<!-- Carousel nav -->
-				<a class="carousel-control left" href="#portfolioCarousel" data-slide="prev">&lsaquo;</a><a class="carousel-control right" href="#portfolioCarousel" data-slide="next">&rsaquo;</a>
-			</div><!--/portfolioCarousel-->
-			<h3>Project Overview</h3>
+				<!--<a class="carousel-control left" href="#portfolioCarousel" data-slide="prev">&lsaquo;</a><a class="carousel-control right" href="#portfolioCarousel" data-slide="next">&rsaquo;</a>
+			</div>--><!--/portfolioCarousel-->
+			<!--<h3>Project Overview</h3>
 			<p><?=$p[0]['content']?></p>
-		</div><!--/span9-->
+		</div>--><!--/span9-->
+        
+        <div class="span9 left_box">
+                <div class="big">
+                <?php foreach($image as $i): ?>
+                    <img src="<?=img_path('general/'.$i['photo'])?>" alt="<?=$i['photo']?>" />
+                    <?php endforeach ?>
+                </div>
+                <div class="thumbs">
+                <?php foreach($image as $i): ?>
+                    <div class="thumb">
+                        <!--<img src="<?=img_path('general/'.$i['photo'])?>" alt="<?=$i['photo']?>" />-->
+                        <img src="<?=img_path('general/'.$i['photo'])?>" />
+                        <a href="#" class="mask">
+                            <div class="more">+</div>
+                        </a>
+                    </div>
+                    <?php endforeach ?>
+                    <div class="thumb">
+                        <!--<img src="<?=img_path('general/'.$i['photo'])?>" alt="<?=$i['photo']?>" />-->
+                        <img src="<?=img_path('folio_thumb1.png')?>" />
+                        <a href="#" class="mask">
+                            <div class="more">+</div>
+                        </a>
+                    </div>
+                    
+                </div><!--/thumbs-->
+                <h3>Project Overview</h3>
+			<p><?=$p[0]['content']?></p>
+            </div><!--/span9-->
+        
+        
 		<div class="span3">
 			<div class="widget">
 				<h4>Project Details</h4>

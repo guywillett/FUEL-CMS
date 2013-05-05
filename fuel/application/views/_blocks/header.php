@@ -85,7 +85,7 @@
               
           <!-- </div>--><!--end langnav-->
 			<?php endif ?>
-            <div id="home" data-type="page" data-name="home"></div><!--just for onepage nav-->
+            <div id="home" data-type="page" data-name="home"><!--</div>--><!--just for onepage nav-->
             <div class="navbar navbar-static-top">
 	<div class="navbar-inner">
 		<div class="container" >
@@ -120,7 +120,7 @@
 		</div><!--/container-->
 	</div><!--/navbar-inner--> 
 </div><!--/navbar-->
-
+</div><!--end id=home-->
             
 		</div>
 <a href="#" id="scroll_top"><span>top</span></a>

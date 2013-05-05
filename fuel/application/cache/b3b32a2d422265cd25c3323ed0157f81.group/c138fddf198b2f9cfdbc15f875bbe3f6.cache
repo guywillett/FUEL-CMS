@@ -1,0 +1,507 @@
+s:27327:"<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+
+	<title>
+		<!--__FUEL_MARKER__0-->chamsoft web development London UK Chamonix	</title>
+
+	<meta name="keywords" content="<!--__FUEL_MARKER__1-->chamsoft, web development, responsive design, website, web design">
+	<meta name="description" content="<!--__FUEL_MARKER__2-->Chamsoft web development, web apps, websites, web design and filemaker development in London, UK and Chamonix. Responsive designs for websites and mobile applications.">
+
+<!-- //facebook stuff-->
+    <meta property="og:title" content="Chamsoft" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.chamsoft.co.uk" />
+<meta property="og:image" content="http://www.chamsoft.co.uk/assets/images/logo3.png" />
+<meta property="og:site_name" content="Chamsoft Web Development" />
+<!--<meta property="fb:admins" content="707836603" />-->
+<!--<meta property="fb:admins" content="pages/ChaChaCha/133907349988388" />-->
+<meta property="fb:admins" content="guy.willett.1" />
+	<link href="/assets/css/main.css?c=" media="all" rel="stylesheet"/>
+	<link href="/assets/css/font-awesome.min.css?c=" media="all" rel="stylesheet"/>
+	<link href="/assets/css/app.css?c=" media="all" rel="stylesheet"/>
+	<link href="/assets/css/responsive.css?c=" media="all" rel="stylesheet"/>
+	<link href="/assets/css/animate.css?c=" media="all" rel="stylesheet"/>
+	    <script type="text/javascript" src="/assets/js/modernizr.custom.79639.js"></script>
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Lato:900,700,400italic,300,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script><script>window.jQuery || document.write('<script src="/assets/js/jquery.js?c="><\/script>');</script></head>
+
+<body class="<!--__FUEL_MARKER__3--> " data-spy="scroll" data-target=".navbar">
+<div id="fb-root"></div>
+<script>
+<!--
+/*(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));*/
+//-->
+</script>
+
+<!--<div id="container">
+	<div id="container_inner">-->
+		<div id="header" data-type="page" data-name="">
+                    <div id="home" data-type="page" data-name="home"><!--</div>--><!--just for onepage nav-->
+            <div class="navbar navbar-static-top">
+	<div class="navbar-inner">
+		<div class="container" >
+		<!-- Phone navbar button --> 
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+			<a class="brand" href="http://chamdev.com/">cham<span>soft</span></a>
+			<!-- Phone navigation -->
+			<div class="nav-collapse collapse pull-right">
+				<ul id="nav" class="nav">
+					<li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li class="dropdown">
+					<a href="#" id="a" class="dropdown-toggle" data-toggle="dropdown">
+					Just 4 fun
+					<b class="caret"></b>
+					</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">I</a></li>
+							<li><a href="#">Thought I</a></li>
+							<li><a href="#">Would put</a></li>
+							<li><a href="#">These</a>
+							<li><a href="#">In too</a>
+							<li><a href="404.html">404 Page</a></li>
+						</ul>
+					</li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#footer">Contact</a></li>
+				</ul>
+			</div><!--/nav-collapse--> 
+		</div><!--/container-->
+	</div><!--/navbar-inner--> 
+</div><!--/navbar-->
+</div><!--end id=home-->
+            
+		</div>
+<a href="#" id="scroll_top"><span>top</span></a>
+		<div id="main">
+	
+	
+		<!--__FUEL_MARKER__4--><section id="feature_slider" class="">
+        <!-- 
+            Each slide is composed by <img> and .info
+            - .info's position is customized with css in index.css
+            - each <img> parallax effect is declared by the following params inside its class:
+            
+            example: class="asset left-472 sp600 t120 z3"
+            left-472 means left: -472px from the center
+            sp600 is speed transition
+            t120 is top to 120px
+            z3 is z-index to 3
+            Note: Maintain this order of params
+
+            For the backgrounds, you can combine from the bgs folder :D
+        -->
+        <article class="slide" id="showcasing" style="background: url('/assets/images/backgrounds/landscape.png') repeat-x top center;">
+            <img class="asset left-30 sp600 t120 z1" src="/assets/images/slides/scene1/macbook.png" />
+            <div class="info">
+                <h2>Beautiful theme for showcasing your works.</h2>
+            </div>
+        </article>
+        <article class="slide" id="ideas" style="background: url('/assets/images/backgrounds/aqua.jpg') repeat-x top center;">
+            <div class="info">
+                <h2>We love to turn ideas into beautiful things.</h2>
+            </div>
+            <img class="asset left-480 sp600 t260 z1" src="/assets/images/slides/scene2/left.png" />
+            <img class="asset left-210 sp600 t213 z2" src="/assets/images/slides/scene2/middle.png" />
+            <img class="asset left60 sp600 t260 z1" src="/assets/images/slides/scene2/right.png" />
+        </article>
+        <article class="slide" id="tour" style="background: url('/assets/images/backgrounds/color-splash.jpg') repeat-x top center;">
+            <img class="asset left-472 sp650 t210 z3" src="/assets/images/slides/scene3/ipad.png" />
+            <img class="asset left-365 sp600 t270 z4" src="/assets/images/slides/scene3/iphone.png" />
+            <img class="asset left-350 sp450 t135 z2" src="/assets/images/slides/scene3/desktop.png" />
+            <img class="asset left-185 sp550 t220 z1" src="/assets/images/slides/scene3/macbook.png" />
+            <div class="info">
+                <h2>Fully Responsive theme</h2>
+                <a href="features.html">TOUR THE PRODUCT</a>
+            </div>
+        </article>
+        <article class="slide" id="responsive" style="background: url('/assets/images/backgrounds/indigo.jpg') repeat-x top center;">
+            <img class="asset left-472 sp600 t120 z3" src="/assets/images/slides/scene4/html5.png" />
+            <img class="asset left-190 sp500 t120 z2" src="/assets/images/slides/scene4/css3.png" />
+            <div class="info">
+                <h2>
+                    Responsive <strong>HTML5 & CSS3</strong>
+                    Theme
+                </h2>                
+            </div>
+        </article>        
+    </section>
+
+<!--/home-slider-->
+
+<div class="white-bg-full">
+	<h3 class="centered">Hire a Coding RockStar!</h3>
+</div><!--white-bg-full-->
+<!----------ABOUT-------------------------------------------------------------------------->
+
+<div class="container inner-page" id="about" data-type="page" data-name="about">
+	<h2>Meet the team</h2>
+	<div class="row margin-bottom25">
+		<div class="span4">
+			<img src="/assets/images/photo.jpg" alt="Guy Willett of Chamsoft" />
+			<h4 class="centered"><strong>Guy Willett</strong></h4>
+			<p class="centered">Guy has been programming for 2 years, using any and all of FileMaker, PHP, MySQL, CSS3, HTML5, JavaScript, Jquery and Python/Django. When not coding, he is an avid skier, climber and cyclist.</p>
+		</div><!--/span4-->
+
+		<div class="span4">
+			<h3>Our Mission</h3>
+			<p>TOP NOTCH apps and websites is what we are all about.  Get home from work satisfied after a productive day at the keyboard.  Just in time to head into the mountains for a ski or out on the roads for a bike ride. Inspiration is all around us, particularly here at Chamsoft. </p>
+            <p>You will find that using your CMS driven website or App that was created by us for <italic>you</italic> will give you that spring in your step and help keep ahead of the curve.</p>
+			
+		</div><!--/span8-->
+		<div class="span4">
+			<h3>Skills and Services</h3>
+				<h4>Web Development</h4>
+			    <div class="progress">
+					<div class="bar" style="width: 90%;"></div>
+				</div><!--/progress-->
+				<h4>Mobile Development</h4>
+				<div class="progress">
+					<div class="bar" style="width: 70%;"></div>
+				</div><!--/progress-->
+				<h4>Website Design</h4>
+				<div class="progress">
+					<div class="bar" style="width: 80%;"></div>
+				</div><!--/progress-->
+                <h4>Desktop Applications</h4>
+				<div class="progress">
+					<div class="bar" style="width: 60%;"></div>
+				</div><!--/progress-->
+				<h4>FileMaker</h4>
+				<div class="progress">
+					<div class="bar" style="width: 75%;"></div>
+				</div><!--/progress-->
+		</div><!--/span4-->
+	</div><!--/row-->
+</div>
+
+<!----------SERVICES----------------------------------------------------------------------------->
+<div class="container" id="services" data-type="page" data-name="services">
+<div class="page-header">
+	<div class="container">
+		<h1>What we do <small>The feathers in our cap</small></h1>
+	</div><!--/container-->
+</div><!--/page-header-->
+	<div class="row">
+		<div class="span4 featured">
+			<!--<img src="assets/images/4.jpg" alt="" />-->
+			<h2><i class="icon-ok"></i> Websites <!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
+			<p>Use your own designers or ours, we don't mind - the important thing is a top quality product.<br/><br/>  The majority of our websites use Crunch CMS (our Content Management System). This makes updating content and keeping it SEO friendly a breeze. It also means you can have a client log-in area and stuff like that...</p>
+		</div><!--/span4-->
+		<div class="span4 featured">
+			<!--<img src="assets/images/3.jpg" alt="" />-->
+			<h2><i class="icon-cogs"></i> Web Apps<!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
+			<p>Booking systems, invoicing, automatic emailing, document storage and serving, contact management, calendars - the world is your oyster. It is all about making your workflow more friendly and efficient. </p>
+		</div><!--span4-->
+		<div class="span4 featured">
+			<!--<img src="assets/images/5.jpg" alt="" />	-->	
+			<h2><i class="icon-laptop"></i> Fully Responsive Designs<!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
+			<p>We can build fully responsive websites - just like this one! Go ahead and resize your browser window and see how it <i>responds</i>.<br/><br/>
+            With an ever increasing proportion of visitors using tablets and smart phones, catering for these users is a really good idea. Responsive design means one website that optimizes itself for the device being used. Cool, huh?</p>
+		</div><!--/span4-->
+        <div class="span4 featured">
+			<!--<img src="assets/images/5.jpg" alt="" />	-->	
+			<h2><i class="icon-bookmark-empty"></i> FileMaker<!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
+            <p>A cross platform, easy-to-use database system.<br/><br/>An initial outlay for the software is quickly recouped in time saved developing your project. From contact management, to booking systems, invoicing and even online shops. FileMaker can be integrated with other popular technologies like MySQL and has a PHP api, so we can build a web-based front end too!</p>
+		</div><!--/span4-->
+        <div class="span4 featured">
+			<!--<img src="assets/images/5.jpg" alt="" />	-->	
+			<h2><i class="icon-tablet"></i> Mobile<!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
+            <p>Sometimes you need access to parts of a mobile device's system that websites just can't do.<br/><br/>  Or you specifically want your app to be available on GooglePlay/Apple Appstore. Step in PhoneGap (or Kivvy if we use Python :) ). We can write the app once in JavaScript and wrap it with PhoneGap before deploying the same code for both Android and iOS.</p>
+		</div><!--/span4-->
+        <div class="span4 featured">
+			<!--<img src="assets/images/5.jpg" alt="" />	-->	
+			<h2><i class="icon-cloud"></i> Web Hosting<!--<a class="btn btn-primary pull-right" href="#">Learn More</a>--></h2>
+            <p>We can look after domain registration, hosting your website and, if you want, your email too.<br/><br/>Located in UK datacentres (great for SEO and performance), we make sure our servers are secure, backed up, fast and never overloaded</p>
+		</div><!--/span4-->
+	</div><!--/row-->
+	
+	<hr>
+	<div class="well well-large centered">
+		<h3>Lead the pack with a beautifully designed website backed by an awesome framework</h3>
+		<p>Thanks to Chamsoft, this is now within your grasp and surprisingly affordable. Get in touch and let's get the ball rolling...</p>
+	</div><!--/well-->
+</div>
+
+<!--PORTFOLIO------------------------------------------------------------------ -->
+<div class="container inner-page" id="portfolio" data-type="page" data-name="portfolio">
+<div class="page-header">
+	<div class="container">
+		<h1>Portfolio <small>Our best and latest</small></h1>
+	</div><!--/container-->
+</div><!--/page-header-->
+	<div class="row">
+		<div class="span12">
+					<ul class="thumbnails">
+                                                            						<li class="span4">
+							<div class="thumbnail">
+								<a href="portfolio/kokopelli-property-llp">
+									<img src="/assets/images/general/small_logo.png" alt="Kokopelli Property LLP">
+								</a>
+								<div class="caption">
+									<h3>Kokopelli Property LLP</h3>
+									<p><p>Property investment in Phoenix, Arizona. &nbsp;On the slate: &nbsp; a &nbsp;website with a clean and simple design. Easy to update and incorporating&nbsp;a client login area to give&nbsp;each client access to their specific fund information. &nbsp;"Simple on the outside, clever on the inside". &nbsp;A perfect candidate for our Crunch CMS platform!</p></p>
+									<p><a class="" href="portfolio/detail/kokopelli-property-llp">View Project Details</a></p>
+								</div><!--/caption-->
+							</div><!--/thumbnail-->
+						</li>
+					                    						<li class="span4">
+							<div class="thumbnail">
+								<a href="portfolio/cha-cha-cha-wine-spirits">
+									<img src="/assets/images/general/1BEAUNE27.jpg" alt="Cha Cha Cha Wine & Spirits">
+								</a>
+								<div class="caption">
+									<h3>Cha Cha Cha Wine & Spirits</h3>
+									<p><p><em>The</em> wine and spirits outlet in Chamonix, France. &nbsp;They wanted it all - and they got it! CMS, blog, email, hosting, product catalogue/categories. A large and exciting project with the jewel in the crown being a bespoke product search feature - the Virtual Caviste.</p></p>
+									<p><a class="" href="portfolio/detail/cha-cha-cha-wine-spirits">View Project Details</a></p>
+								</div><!--/caption-->
+							</div><!--/thumbnail-->
+						</li>
+					                    						<li class="span4">
+							<div class="thumbnail">
+								<a href="portfolio/dream-guides">
+									<img src="/assets/images/general/" alt="Dream Guides">
+								</a>
+								<div class="caption">
+									<h3>Dream Guides</h3>
+									<p><p>A ski and mountain guiding company with close ties to Chamonix-Mont-Blanc was itching for&nbsp;a completely new dynamic website with built in client accounts and booking system , remote blogging via email (from Everest basecamp!), newsletter management and a few other bells and whistles. &nbsp;What's more, it needed to integrate with their existing FileMaker client database...</p></p>
+									<p><a class="" href="portfolio/detail/dream-guides">View Project Details</a></p>
+								</div><!--/caption-->
+							</div><!--/thumbnail-->
+						</li>
+						
+						
+					</ul>
+                    </div>
+                    </div>
+                    </div>
+<!---------BLOG--------------------------------------------------------------------------------->                    
+<div class="container inner-page" id="blog" data-type="page" data-name="blog">
+<div class="page-header">
+	<div class="container">
+		<h1>The Blog <small>A little bit of juju</small></h1>
+	</div><!--/container-->
+</div><!--/page-header-->
+	<div class="row">
+		<div class="span9">
+                                			<div class="row blog-post">
+				<div class="span3">
+					<a href="http://chamdev.com/blog/2013/05/03/how-to-making-a-scroll-to-top-button"><img src="/assets/images/2s.jpg" alt="How To:  Making a Scroll To Top button" /></a>
+				</div><!--/row-->
+				<div class="span6">
+					<h3><a href="http://chamdev.com/blog/2013/05/03/how-to-making-a-scroll-to-top-button">How To:  Making a Scroll To Top button </a></h3>
+					<blockquote><small>Posted by <cite><a href="#">Guy Willett</a></cite> on 3rd May 2013 in <a href="#"><a href="http://chamdev.com/blog/categories/web-development">Web Development</a></a></a></small>
+						<p><p>With faster JavaScript engines in modern browsers, a sprinkling of JS magic can really enhance the usability and feel of a website. We shouldn't go overboard though, that would be too <em>slapstick</em>, and sometimes even hinder user experience. Today I want to share with you a simple and succinct droplet of code&nbsp;which I enjoyed implementing on this website - the Scroll To Top fixed button.</p><br><a href="http://chamdev.com/blog/2013/05/03/how-to-making-a-scroll-to-top-button">Keep reading...</a></p>
+					</blockquote>
+				</div><!--/span6-->
+			</div><!--/row-->
+                			<div class="row blog-post">
+				<div class="span3">
+					<a href="http://chamdev.com/blog/2013/04/30/mobile-app-or-responsive-design"><img src="/assets/images/3s.jpg" alt="Mobile App or Responsive Design?" /></a>
+				</div><!--/row-->
+				<div class="span6">
+					<h3><a href="http://chamdev.com/blog/2013/04/30/mobile-app-or-responsive-design">Mobile App or Responsive Design? </a></h3>
+					<blockquote><small>Posted by <cite><a href="#">Guy Willett</a></cite> on 30th April 2013 in <a href="#"><a href="http://chamdev.com/blog/categories/uncategorized">Uncategorized</a>, <a href="http://chamdev.com/blog/categories/web-development">Web Development</a></a></a></small>
+						<p><p>Responsive Web Design is all the rage, a buzz word, the here and now. &nbsp;But is it the be all and end all? &nbsp;When should we build a Mobile App instead, or as well? Some pros and cons&nbsp;when&nbsp;choosing a design strategy...</p><br><a href="http://chamdev.com/blog/2013/04/30/mobile-app-or-responsive-design">Keep reading...</a></p>
+					</blockquote>
+				</div><!--/span6-->
+			</div><!--/row-->
+                			<div class="row blog-post">
+				<div class="span3">
+					<a href="http://chamdev.com/blog/2013/04/28/up-up-and-away"><img src="/assets/images/box.png" alt="Up, Up and Away!" /></a>
+				</div><!--/row-->
+				<div class="span6">
+					<h3><a href="http://chamdev.com/blog/2013/04/28/up-up-and-away">Up, Up and Away! </a></h3>
+					<blockquote><small>Posted by <cite><a href="#">Guy Willett</a></cite> on 28th April 2013 in <a href="#"><a href="http://chamdev.com/blog/categories/uncategorized">Uncategorized</a></a></a></small>
+						<p><p>Proudly anouncing the launch of the new Chamsoft website : da-da!</p>
+
+<p>I actually had a blast building this website,&nbsp;so thought I would share some insights about it...</p><br><a href="http://chamdev.com/blog/2013/04/28/up-up-and-away">Keep reading...</a></p>
+					</blockquote>
+				</div><!--/span6-->
+			</div><!--/row-->
+                            
+		
+		</div><!--/span9-->
+		<div class="span3 sidebar">
+			
+			<div class="widget">
+				<h4>Blog Categories</h4>
+				<ul>
+                <li><a href="http://chamdev.com/blog/categories/uncategorized"><i class="icon-angle-right"></i>Uncategorized</a> (2)</li>
+                    <li><a href="http://chamdev.com/blog/categories/web-development"><i class="icon-angle-right"></i>Web Development</a> (2)</li>
+                                        				</ul>
+                <p>We like to write about what has intrigued, excited and occasionally annoyed us!</p>
+			</div><!--/widget-->
+            <div class="widget">
+            <h4>Archives</h4>
+            <ul>
+            		<li><a href="http://chamdev.com/blog/2013/05"><i class="icon-angle-right"></i>May 2013</a> (1)</li>
+				<li><a href="http://chamdev.com/blog/2013/04"><i class="icon-angle-right"></i>April 2013</a> (2)</li>
+		            </ul>
+            </div><!--/widget-->
+			<!--<div class="widget">
+				<h4>Newsletter Signup</h4>
+				<form>
+					<input type="text" class="input-block-level" id="inputNewsletter" placeholder="Enter your email">
+					<button type="submit" class="btn btn-primary">Sign Up!</button>
+				</form>	
+			</div>--><!--/widget-->
+		</div><!--/span3-->
+	</div><!--/row-->
+</div>	
+	
+	        
+        </div>
+	<!--</div>-->
+	<div id="footer" data-type="page" data-name="footer">
+		<div id="footer_top">
+		<footer>
+	<div class="logos-bar">
+		<div class="container">
+			<ul class="logos">
+				<li><a href="http://kokopelliproperty.com" target="_blank"><img src="/assets/images/big_logo.png" alt="kokopelli property" /></a></li>
+				<li><a href="http://chachacha-chamonix.com" target="_blank"><img style="background-color:#999" src="/assets/images/logo.png" alt="cha cha cha" /></a></li>
+				<li><a href="http://www.dream-guides.com" target="_blank"><img src="/assets/images/logo-11.png" alt="dream guides" /></a></li>
+				<li><a href="http://skibikechamonix.com" target="_blank"><img src="/assets/images/logo-sbc.png" alt="ski bike chamonix" /></a></li>
+                <li><a href="http://www.bepurefit.com" target="_blank"><img style="background-color:#000" src="/assets/images/logo_bepurefit.png" alt="be pure fit" /></a></li>
+			</ul>
+		</div><!--/container-->
+	</div><!--logos-bar-->
+	<div class="footer-bar">
+		<div class="container">
+			<div class="row">
+				<div class="span3">
+					<h3>Stay Connected</h3>
+					<ul class="social-media">
+						<li><a href="https://www.facebook.com/chamsoft1" class="facebook"><i class="icon-facebook"></i></a></li>
+						<li><a href="https://twitter.com/GuyChamsoft" class="twitter"><i class="icon-twitter"></i></a></li>
+						<!--<li><a href="#" class="googleplus"><i class="icon-google-plus"></i></a></li>
+						<li><a href="#" class="pinterest"><i class="icon-pinterest"></i></a></li>-->
+						<li><a href="https://github.com/guywillett" class="github"><i class="icon-github"></i></a></li>
+						<li><a href="http://uk.linkedin.com/pub/guy-willett/44/697/490" class="linkedin"><i class="icon-linkedin"></i></a></li>
+					</ul>
+					<h4>Contact Us</h4>
+					<p>
+					Chamsoft Ltd<br>
+					14 Cautley Avenue<br>
+					London SW4 9HU<br>
+					<strong>Tel: </strong><a href="tel:0033689846055">0033 (0) 689846055</a><br>
+					<strong>Email: </strong><a href="mailto:info@chamsoft.co.uk">info@chamsoft.co.uk</a>
+					</p>
+				</div><!--/span3-->
+				<div class="span5">
+					<h3>Latest Tweets</h3>
+				<!--ajax tweets in here-->
+                <div id="tweet-ajax"></div>
+				</div><!--/span5-->
+				<div class="span4">
+					<h3>Get In Touch!</h3>
+					<!--<form id="contact-form">
+					<input type="text" class="input-block-level" id="inputNameContact" placeholder="Name">
+					<input type="text" class="input-block-level" id="inputEmailContact" placeholder="Email">
+					<textarea rows="3" id="inputMessageContact" class="input-block-level" placeholder="Message"></textarea>
+					<button type="submit" class="btn btn-primary">Send Message</button>
+				</form>-->
+                <form method="post" action=""><div class="form" id="form_518652b18d53b">
+<script language="JavaScript" type="text/javascript">
+// <![CDATA[
+try { $(function(){ $('.error_highlight input:first').focus(); }); } catch(e){};
+// ]]>
+</script>
+<table><tbody>
+<tr>
+	<td class="value" colspan="2"><input type="text" name="name" id="name" value="" class="field_type_text input-block-level" size="40" placeholder="Name" required="1" /></td>
+</tr>
+<tr>
+	<td class="value" colspan="2"><input type="text" name="email" id="email" value="" class="field_type_text input-block-level" size="40" placeholder="Email" required="1" /></td>
+</tr>
+<tr>
+	<td class="value" colspan="2"><textarea name="message" id="message"  class="field_type_textarea input-block-level" rows="3" cols="60" placeholder="Message" required="1"></textarea></td>
+</tr>
+<tr>
+	<td></td>
+	<td class="actions"><div class="actions_inner"><input type="submit" name="Send Message" value="Send Message" class="btn btn-primary" id="Send Message" /></div></td>
+</tr>
+</tbody>
+</table>
+</div></form><script src="/fuel/modules/fuel/assets/js/jquery/plugins/jquery.formbuilder.js?c=" type="text/javascript" charset="utf-8"></script>
+	<script src="/fuel/modules/fuel/assets/js/fuel/custom_fields.js?c=" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+//<![CDATA[
+
+if (jQuery){ jQuery(function(){if (jQuery.fn.formBuilder) {if (typeof(window['formBuilderFuncs']) == "undefined") { window['formBuilderFuncs'] = {}; };window['formBuilderFuncs'] = jQuery.extend(window['formBuilderFuncs'], []);jQuery("#form_518652b18d53b").formBuilder(window['formBuilderFuncs']);jQuery("#form_518652b18d53b").formBuilder().initialize();}})}
+//]]>
+</script>
+				</div><!--/span4-->
+			</div><!--/row-->
+		</div><!--/container-->
+	</div><!--/footer-bar-->
+</footer>
+		</div>
+		<div id="footer_bot">
+			<div id="copyright">Copyright &copy; 2013 Chamsoft ltd,  All Rights Reserved.</div>
+		</div>
+	</div>
+<!--</div>-->
+<script src="/assets/js/main.js?c=" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/bootstrap.min.js?c=" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/index-slider.js?c=" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/onepage.js?c=" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">	
+	/*$(function() {
+		var Page = (function() {
+			var $nav = $( '#nav-dots > span' ),
+				slitslider = $( '#slider' ).slitslider( {
+					onBeforeChange : function( slide, pos ) {
+						$nav.removeClass( 'nav-dot-current' );
+						$nav.eq( pos ).addClass( 'nav-dot-current' );
+					}
+				} ),
+				init = function() {
+					initEvents();
+				},
+				initEvents = function() {
+					$nav.each( function( i ) {
+						$( this ).on( 'click', function( event ) {
+							var $dot = $( this );
+							if( !slitslider.isActive() ) {
+								$nav.removeClass( 'nav-dot-current' );
+								$dot.addClass( 'nav-dot-current' );
+							}
+							slitslider.jump( i + 1 );
+							return false;
+						} );
+					} );
+				};
+				return { init : init };
+		})();
+		Page.init();*/
+		/**
+		 * Notes: 
+		 * 
+		 * example how to add items:
+		 */
+
+		/*
+		var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+		// call the plugin's add method
+		ss.add($items);
+		*/
+	//});
+</script>
+
+</body>
+</html>";

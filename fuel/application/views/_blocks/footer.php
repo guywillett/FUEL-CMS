@@ -55,49 +55,26 @@
 				<div class="span3">
 					<h3>Stay Connected</h3>
 					<ul class="social-media">
-						<li><a href="#" class="facebook"><i class="icon-facebook"></i></a></li>
-						<li><a href="#" class="twitter"><i class="icon-twitter"></i></a></li>
+						<li><a href="https://www.facebook.com/chamsoft1" class="facebook"><i class="icon-facebook"></i></a></li>
+						<li><a href="https://twitter.com/GuyChamsoft" class="twitter"><i class="icon-twitter"></i></a></li>
 						<!--<li><a href="#" class="googleplus"><i class="icon-google-plus"></i></a></li>
 						<li><a href="#" class="pinterest"><i class="icon-pinterest"></i></a></li>-->
-						<li><a href="#" class="github"><i class="icon-github"></i></a></li>
-						<li><a href="#" class="linkedin"><i class="icon-linkedin"></i></a></li>
+						<li><a href="https://github.com/guywillett" class="github"><i class="icon-github"></i></a></li>
+						<li><a href="http://uk.linkedin.com/pub/guy-willett/44/697/490" class="linkedin"><i class="icon-linkedin"></i></a></li>
 					</ul>
 					<h4>Contact Us</h4>
 					<p>
 					Chamsoft Ltd<br>
 					14 Cautley Avenue<br>
 					London SW4 9HU<br>
-					<strong>Mobile: </strong><a href="tel:0033689846055">0033 (0) 689846055</a><br>
-					<strong>Office: </strong>0033 (0) 689846055<br>
+					<strong>Tel: </strong><a href="tel:0033689846055">0033 (0) 689846055</a><br>
 					<strong>Email: </strong><a href="mailto:info@chamsoft.co.uk">info@chamsoft.co.uk</a>
 					</p>
 				</div><!--/span3-->
 				<div class="span5">
 					<h3>Latest Tweets</h3>
-					<div class="row tweet">
-						<!--<div class="span1">
-							<img src="http://placehold.it/75x75" alt="" />
-						</div>--><!--/span1-->
-						<div class="span4 tweet-text">
-							Cras dictum mauris a dolor viverra fermentum. Nullam porta placerat ligula non tincidunt.
-						</div><!--/span4-->
-					</div><!--/row-->
-					<div class="row tweet">
-						<!--<div class="span1">
-							<img src="http://placehold.it/75x75" alt="" />
-						</div>--><!--/span1-->
-						<div class="span4 tweet-text">
-							Aliquam id nulla nisi, a varius massa. Cum sociis natoque penatibus et magnis dis part.
-						</div><!--/span4-->
-					</div><!--/row-->
-					<div class="row tweet">
-						<!--<div class="span1">
-							<img src="http://placehold.it/75x75" alt="" />
-						</div>--><!--/span1-->
-						<div class="span4 tweet-text">
-							Cras ut gravida leo. Aliquam erat volutpat. Vestibulum sed purus diam, eu sodales est.
-						</div><!--/span4-->
-					</div><!--/row-->
+				<!--ajax tweets in here-->
+                <div id="tweet-ajax"></div>
 				</div><!--/span5-->
 				<div class="span4">
 					<h3>Get In Touch!</h3>
@@ -122,7 +99,7 @@
 <?php //echo jquery('1.9.1').js('main').js($js); ?>
 <?php echo js('main').js($js); ?>
 <script type="text/javascript">	
-	$(function() {
+	/*$(function() {
 		var Page = (function() {
 			var $nav = $( '#nav-dots > span' ),
 				slitslider = $( '#slider' ).slitslider( {
@@ -149,7 +126,7 @@
 				};
 				return { init : init };
 		})();
-		Page.init();
+		Page.init();*/
 		/**
 		 * Notes: 
 		 * 
@@ -161,7 +138,7 @@
 		// call the plugin's add method
 		ss.add($items);
 		*/
-	});
+	//});
 </script>
 
 </body>

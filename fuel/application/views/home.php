@@ -1,46 +1,56 @@
 <?php //$CI->load->module_view('app', '_install') ?>
-<div class="home-slider">
-	<div id="slider" class="sl-slider-wrapper">
-		<div class="sl-slider">
-			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-1"></div>
-					<h2>Business Professional</h2>
-					<p>Sed suscipit, augue et faucibus dapibus, lectus erat sagittis risus, nec cursus justo tellus ut nibh. Curabitur sed bibendum metus. Duis facilisis dolor ac turpis consectetur aliquet. Suspendisse fringilla vulputate dapibus. Aenean mattis, erat sit amet elementum pellentesque, sem risus tristique urna.<br><a href="#" class="btn btn-primary btn-large">Learn More</a><span>azurebliss</span></p>
-				</div>
-			</div>
-			<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-2"></div>
-					<h2>100% Responsive</h2>
-					<p>Sed suscipit, augue et faucibus dapibus, lectus erat sagittis risus, nec cursus justo tellus ut nibh. Curabitur sed bibendum metus. Duis facilisis dolor ac turpis consectetur aliquet. Suspendisse fringilla vulputate dapibus. Aenean mattis, erat sit amet elementum pellentesque, sem risus tristique urna.<br><a href="#" class="btn btn-primary btn-large">Learn More</a><span>azurebliss</span></p>
-				</div>
-			</div>
-			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-3"></div>
-					<h2>Valid HTML5/CSS</h2>
-					<p>Sed suscipit, augue et faucibus dapibus, lectus erat sagittis risus, nec cursus justo tellus ut nibh. Curabitur sed bibendum metus. Duis facilisis dolor ac turpis consectetur aliquet. Suspendisse fringilla vulputate dapibus. Aenean mattis, erat sit amet elementum pellentesque, sem risus tristique urna.<br><a href="#" class="btn btn-primary btn-large">Learn More</a><span>azurebliss</span></p>
-				</div>
-			</div>
-			<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
-				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-4"></div>
-					<h2>Easy CMS Integration</h2>
-					<p>Sed suscipit, augue et faucibus dapibus, lectus erat sagittis risus, nec cursus justo tellus ut nibh. Curabitur sed bibendum metus. Duis facilisis dolor ac turpis consectetur aliquet. Suspendisse fringilla vulputate dapibus. Aenean mattis, erat sit amet elementum pellentesque, sem risus tristique urna.<br><a href="#" class="btn btn-primary btn-large">Learn More</a><span>azurebliss</span></p>
-				</div>
-			</div>
-			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
-				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-5"></div>
-					<h2>LESS & CSS Files</h2>
-					<p>Sed suscipit, augue et faucibus dapibus, lectus erat sagittis risus, nec cursus justo tellus ut nibh. Curabitur sed bibendum metus. Duis facilisis dolor ac turpis consectetur aliquet. Suspendisse fringilla vulputate dapibus. Aenean mattis, erat sit amet elementum pellentesque, sem risus tristique urna.<br><a href="#" class="btn btn-primary btn-large">Learn More</a><span>azurebliss</span></p>
-				</div>
-			</div>
-		</div><!--/sl-slider-->
-		<nav id="nav-dots" class="nav-dots visible-desktop"> <span class="nav-dot-current"></span> <span></span> <span></span> <span></span> <span></span> </nav>
-	</div><!--/slider-wrapper-->
-</div><!--/home-slider-->
+<section id="feature_slider" class="">
+        <!-- 
+            Each slide is composed by <img> and .info
+            - .info's position is customized with css in index.css
+            - each <img> parallax effect is declared by the following params inside its class:
+            
+            example: class="asset left-472 sp600 t120 z3"
+            left-472 means left: -472px from the center
+            sp600 is speed transition
+            t120 is top to 120px
+            z3 is z-index to 3
+            Note: Maintain this order of params
+
+            For the backgrounds, you can combine from the bgs folder :D
+        -->
+        <article class="slide" id="showcasing" style="background: url('/assets/images/backgrounds/landscape.png') repeat-x top center;">
+            <img class="asset left-30 sp600 t120 z1" src="/assets/images/slides/scene1/macbook.png" />
+            <div class="info">
+                <h2>Beautiful theme for showcasing your works.</h2>
+            </div>
+        </article>
+        <article class="slide" id="ideas" style="background: url('/assets/images/backgrounds/aqua.jpg') repeat-x top center;">
+            <div class="info">
+                <h2>We love to turn ideas into beautiful things.</h2>
+            </div>
+            <img class="asset left-480 sp600 t260 z1" src="/assets/images/slides/scene2/left.png" />
+            <img class="asset left-210 sp600 t213 z2" src="/assets/images/slides/scene2/middle.png" />
+            <img class="asset left60 sp600 t260 z1" src="/assets/images/slides/scene2/right.png" />
+        </article>
+        <article class="slide" id="tour" style="background: url('/assets/images/backgrounds/color-splash.jpg') repeat-x top center;">
+            <img class="asset left-472 sp650 t210 z3" src="/assets/images/slides/scene3/ipad.png" />
+            <img class="asset left-365 sp600 t270 z4" src="/assets/images/slides/scene3/iphone.png" />
+            <img class="asset left-350 sp450 t135 z2" src="/assets/images/slides/scene3/desktop.png" />
+            <img class="asset left-185 sp550 t220 z1" src="/assets/images/slides/scene3/macbook.png" />
+            <div class="info">
+                <h2>Fully Responsive theme</h2>
+                <a href="features.html">TOUR THE PRODUCT</a>
+            </div>
+        </article>
+        <article class="slide" id="responsive" style="background: url('/assets/images/backgrounds/indigo.jpg') repeat-x top center;">
+            <img class="asset left-472 sp600 t120 z3" src="/assets/images/slides/scene4/html5.png" />
+            <img class="asset left-190 sp500 t120 z2" src="/assets/images/slides/scene4/css3.png" />
+            <div class="info">
+                <h2>
+                    Responsive <strong>HTML5 & CSS3</strong>
+                    Theme
+                </h2>                
+            </div>
+        </article>        
+    </section>
+
+<!--/home-slider-->
 
 <div class="white-bg-full">
 	<h3 class="centered">Hire a Coding RockStar!</h3>
@@ -175,7 +185,7 @@
 <div class="container inner-page" id="blog" data-type="page" data-name="blog">
 <div class="page-header">
 	<div class="container">
-		<h1>Official Blog <small>A little bit of juju</small></h1>
+		<h1>The Blog <small>A little bit of juju</small></h1>
 	</div><!--/container-->
 </div><!--/page-header-->
 	<div class="row">
@@ -198,30 +208,10 @@
         <?php endforeach?>
         <?php endif ?>
             
-			
-			<!--<ul class="pager">
-				<li class="previous"> <a href="#">&larr; Older</a> </li>
-				<li class="next"> <a href="#">Newer &rarr;</a> </li>
-			</ul>-->
+		
 		</div><!--/span9-->
 		<div class="span3 sidebar">
-			<!--<img src="http://placehold.it/300x200" class="ad-spot" alt="" />
-		    <form class="search-form">
-				<div class="input-append">
-					<input class="span2" id="appendedInputButton" type="text" placeholder="Enter your email">
-					<button class="btn btn-primary" type="button">Search</button>
-				</div>--><!--/input-append-->
-			<!--</form>-->
-			<!--<div class="widget">
-				<h4>Recent Posts</h4>
-				<ul>
-					<li><a href="#"><i class="icon-angle-right"></i> 10 Tips for Web Design</a></li>
-					<li><a href="#"><i class="icon-angle-right"></i>Why HTML5 is Important</a></li>
-					<li><a href="#"><i class="icon-angle-right"></i>User Interface Design</a></li>
-					<li><a href="#"><i class="icon-angle-right"></i>Retina Display?</a></li>
-				</ul>
-				<p>We like to write about what has intrigued, excited and occasionally annoyed us!</p>
-			</div>--><!--/widget-->
+			
 			<div class="widget">
 				<h4>Blog Categories</h4>
 				<ul>
@@ -247,13 +237,13 @@
 <?php endif ?>
             </ul>
             </div><!--/widget-->
-			<div class="widget">
+			<!--<div class="widget">
 				<h4>Newsletter Signup</h4>
 				<form>
 					<input type="text" class="input-block-level" id="inputNewsletter" placeholder="Enter your email">
 					<button type="submit" class="btn btn-primary">Sign Up!</button>
 				</form>	
-			</div><!--/widget-->
+			</div>--><!--/widget-->
 		</div><!--/span3-->
 	</div><!--/row-->
 </div>
