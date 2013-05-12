@@ -1,11 +1,11 @@
-s:13137:"<!DOCTYPE html>
+s:12210:"<!DOCTYPE html>
 
 <html lang="en-US">
 <head>
 	<meta charset="utf-8">
 
 	<title>
-		Web Development&laquo;Categories&laquo; : 	</title>
+		Jan : 2013 : 	</title>
 
 	<meta name="keywords" content="chamsoft, web development, responsive design, website, web design">
 	<meta name="description" content="Chamsoft web development, web apps, websites, web design and filemaker development in London, UK and Chamonix. Responsive designs for websites and mobile applications.">
@@ -25,8 +25,8 @@ s:13137:"<!DOCTYPE html>
 	<link href="/assets/css/responsive.css?c=" media="all" rel="stylesheet"/>
 	<link href="/assets/css/animate.css?c=" media="all" rel="stylesheet"/>
 	<link href="/assets/css/blog.css?c=" media="all" rel="stylesheet"/>
-	<link rel="alternate" type="application/atom+xml" href="http://www.chamdev.com/blog/categories/web-development/feed/atom" />
-<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.chamdev.com/blog/categories/web-development/feed/rss" />
+	<link rel="alternate" type="application/atom+xml" href="http://www.chamdev.com/blog/feed/atom" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.chamdev.com/blog/feed/rss" />
     <script type="text/javascript" src="/assets/js/modernizr.custom.79639.js"></script>
 <!-- Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Lato:900,700,400italic,300,400' rel='stylesheet' type='text/css'>
@@ -116,24 +116,6 @@ s:13137:"<!DOCTYPE html>
 			</div>
 			<div class="post_meta">
 				<a href="http://www.chamdev.com/blog/categories/web-development">Web Development</a> 
-			</div>
-		</div>
-		<div class="clear"></div>
-				<div class="post">
-			
-					
-			<h2><a href="http://www.chamdev.com/blog/2013/04/30/mobile-app-or-responsive-design">Mobile App or Responsive Design?</a></h2> 
-
-			<div class="post_date">
-				Published April 30, 2013 
-				by <strong><span class="post_author_name">Guy Willett</span></strong>
-			</div>
-
-			<div class="post_content">
-				<p>Responsive Web Design is all the rage, a buzz word, the here and now. &nbsp;But is it the be all and end all? &nbsp;When should we build a Mobile App instead, or as well? Some pros and cons&nbsp;when&nbsp;choosing a design strategy&#8230;</p> 
-			</div>
-			<div class="post_meta">
-				<a href="http://www.chamdev.com/blog/categories/uncategorized">Uncategorized</a>, <a href="http://www.chamdev.com/blog/categories/web-development">Web Development</a> 
 			</div>
 		</div>
 		<div class="clear"></div>
@@ -245,7 +227,7 @@ s:13137:"<!DOCTYPE html>
 					<textarea rows="3" id="inputMessageContact" class="input-block-level" placeholder="Message"></textarea>
 					<button type="submit" class="btn btn-primary">Send Message</button>
 				</form>-->
-                <form method="post" action=""><div class="form" id="form_5188afb19b967">
+                <form method="post" action=""><div class="form" id="form_51878a25e2b4a">
 <script language="JavaScript" type="text/javascript">
 // <![CDATA[
 try { $(function(){ $('.error_highlight input:first').focus(); }); } catch(e){};
@@ -272,7 +254,7 @@ try { $(function(){ $('.error_highlight input:first').focus(); }); } catch(e){};
 	<script type="text/javascript">
 //<![CDATA[
 
-if (jQuery){ jQuery(function(){if (jQuery.fn.formBuilder) {if (typeof(window['formBuilderFuncs']) == "undefined") { window['formBuilderFuncs'] = {}; };window['formBuilderFuncs'] = jQuery.extend(window['formBuilderFuncs'], []);jQuery("#form_5188afb19b967").formBuilder(window['formBuilderFuncs']);jQuery("#form_5188afb19b967").formBuilder().initialize();}})}
+if (jQuery){ jQuery(function(){if (jQuery.fn.formBuilder) {if (typeof(window['formBuilderFuncs']) == "undefined") { window['formBuilderFuncs'] = {}; };window['formBuilderFuncs'] = jQuery.extend(window['formBuilderFuncs'], []);jQuery("#form_51878a25e2b4a").formBuilder(window['formBuilderFuncs']);jQuery("#form_51878a25e2b4a").formBuilder().initialize();}})}
 //]]>
 </script>
 				</div><!--/span4-->

@@ -1,6 +1,10 @@
 <?php  if (!defined('BASEPATH')) exit('No direct script access allowed');
 // add your site specific functions here
-
+function getThumbnail($filename){
+	$str = explode(".", $filename);
+			$thumb = $str[0]."_thumb.".$str[1];
+		return $thumb;
+	}
 
 /**
  * Twitter-API-PHP : Simple PHP wrapper for the v1.1 API

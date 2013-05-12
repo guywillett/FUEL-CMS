@@ -29,6 +29,7 @@
 <!--<meta property="fb:admins" content="707836603" />-->
 <!--<meta property="fb:admins" content="pages/ChaChaCha/133907349988388" />-->
 <meta property="fb:admins" content="guy.willett.1" />
+<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 	<?php
 		echo css('main').css($css);
 

@@ -14,28 +14,28 @@
 
             For the backgrounds, you can combine from the bgs folder :D
         -->
-        <article class="slide" id="showcasing" style="background: url('/assets/images/backgrounds/landscape.png') repeat-x top center;">
-            <img class="asset left-30 sp600 t120 z1" src="/assets/images/slides/scene1/macbook.png" />
+       <article class="slide" id="showcasing" style="background: url('/assets/images/backgrounds/aqua.jpg') repeat-x top center;">
+            <img class="asset left-60 sp600 t120 z1" src="/assets/images/general/BANNER-guy.png" />
             <div class="info">
-                <h2>Beautiful theme for showcasing your works.</h2>
+                <h2>Software & Web Development</h2>
             </div>
         </article>
         <article class="slide" id="ideas" style="background: url('/assets/images/backgrounds/aqua.jpg') repeat-x top center;">
             <div class="info">
-                <h2>We love to turn ideas into beautiful things.</h2>
+                <h2>Websites</h2>
             </div>
-            <img class="asset left-480 sp600 t260 z1" src="/assets/images/slides/scene2/left.png" />
-            <img class="asset left-210 sp600 t213 z2" src="/assets/images/slides/scene2/middle.png" />
-            <img class="asset left60 sp600 t260 z1" src="/assets/images/slides/scene2/right.png" />
+            <img class="asset left-480 sp450 t260 z1" src="/assets/images/general/cha_home_medium.png" />
+            <img class="asset left-210 sp600 t213 z2" src="/assets/images/general/why_medium.png" />
+            <img class="asset left60 sp650 t260 z1" src="/assets/images/general/dg_home_medium.png" />
         </article>
         <article class="slide" id="tour" style="background: url('/assets/images/backgrounds/color-splash.jpg') repeat-x top center;">
-            <img class="asset left-472 sp650 t210 z3" src="/assets/images/slides/scene3/ipad.png" />
-            <img class="asset left-365 sp600 t270 z4" src="/assets/images/slides/scene3/iphone.png" />
-            <img class="asset left-350 sp450 t135 z2" src="/assets/images/slides/scene3/desktop.png" />
-            <img class="asset left-185 sp550 t220 z1" src="/assets/images/slides/scene3/macbook.png" />
+            <img class="asset left-452 sp650 t210 z3" src="/assets/images/slides/scene3/ipad.png" />
+            <img class="asset left-345 sp600 t270 z4" src="/assets/images/slides/scene3/iphone.png" />
+            <img class="asset left-330 sp550 t135 z2" src="/assets/images/desktop.png" />
+           <!-- <img class="asset left-185 sp550 t220 z1" src="/assets/images/slides/scene3/macbook.png" />-->
             <div class="info">
-                <h2>Fully Responsive theme</h2>
-                <a href="features.html">TOUR THE PRODUCT</a>
+                <h2>LAMP Stack, FileMaker & Python/Django</h2>
+                <a class="onepage" href="#services">What we can do for you ></a>
             </div>
         </article>
         <article class="slide" id="responsive" style="background: url('/assets/images/backgrounds/indigo.jpg') repeat-x top center;">
@@ -43,8 +43,7 @@
             <img class="asset left-190 sp500 t120 z2" src="/assets/images/slides/scene4/css3.png" />
             <div class="info">
                 <h2>
-                    Responsive <strong>HTML5 & CSS3</strong>
-                    Theme
+                    Responsive Web Design & Mobile Apps
                 </h2>                
             </div>
         </article>        
@@ -63,13 +62,13 @@
 		<div class="span4">
 			<img src="/assets/images/photo.jpg" alt="Guy Willett of Chamsoft" />
 			<h4 class="centered"><strong>Guy Willett</strong></h4>
-			<p class="centered">Guy has been programming for 2 years, using any and all of FileMaker, PHP, MySQL, CSS3, HTML5, JavaScript, Jquery and Python/Django. When not coding, he is an avid skier, climber and cyclist.</p>
+			<p class="centered">Guy is the man behind Chamsoft and uses any and all of PHP, MySQL, CSS3, HTML5, JavaScript, jQuery, FileMaker and Python/Django. When not coding, he is an avid skier, climber and cyclist.</p>
 		</div><!--/span4-->
 
 		<div class="span4">
 			<h3>Our Mission</h3>
-			<p>TOP NOTCH apps and websites is what we are all about.  Get home from work satisfied after a productive day at the keyboard.  Just in time to head into the mountains for a ski or out on the roads for a bike ride. Inspiration is all around us, particularly here at Chamsoft. </p>
-            <p>You will find that using your CMS driven website or App that was created by us for <italic>you</italic> will give you that spring in your step and help keep ahead of the curve.</p>
+			<p>TOP NOTCH Apps and Websites are what we are all about.</p>  <p>But we also like to get home, satisfied after a productive day at the keyboard, and head into the mountains for a ski or out on the roads for a bike ride.</p> <p>Inspiration is all around us, particularly here at Chamsoft. </p>
+            <p>We hope that using your Chamsoft-built website or App (created just for <em>you</em>) will give you that spring in your step and help keep you ahead of the curve.</p>
 			
 		</div><!--/span8-->
 		<div class="span4">
@@ -166,12 +165,12 @@
 						<li class="span4">
 							<div class="thumbnail">
 								<a href="portfolio/<?=$p['slug']?>">
-									<img src="<?=img_path('general/'.$i[0]['photo'])?>" alt="<?=$p['name']?>">
+									<img data-toggle="tooltip" title="<?=$p['type']?>" src="<?=img_path('general/'.$i[0]['photo'])?>" alt="<?=$p['name']?>">
 								</a>
 								<div class="caption">
 									<h3><?=$p['name']?></h3>
 									<p><?=$p['snippet']?></p>
-									<p><a class="" href="portfolio/detail/<?=$p['slug']?>">View Project Details</a></p>
+									<p><a class="" href="portfolio/<?=$p['slug']?>">View Project Details</a></p>
 								</div><!--/caption-->
 							</div><!--/thumbnail-->
 						</li>

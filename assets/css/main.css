@@ -1,8 +1,8 @@
 /***************************************************************
 RESET BROWSER VALUES SO EVERYONE IS THE SAME
 ***************************************************************/
-@import url(reset.css);
-@import url(common.css);
+/*@import url(reset.css);
+@import url(common.css);*/
 
 
 /***************************************************************
@@ -120,12 +120,13 @@ pre .js{
 	/*margin-top: 70px;*/
 }
 #portfolio_tem .left_box{
-	margin-left: 0;
+	/*margin-left: 0;*/
 }
 #portfolio_tem .left_box .big{
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	position: relative;
-	height: 431px;
+	/*height: 431px;*/
+	height: 400px;
 }
 #portfolio_tem .left_box .big img{
 	position: absolute;
@@ -134,7 +135,7 @@ pre .js{
 #portfolio_tem .thumbs .thumb{
 	float: left;
 	position: relative;
-	margin-right: 30px;
+	margin-right: 15px;
 	cursor: pointer;
 	margin-bottom: 10px;
 }
@@ -173,7 +174,8 @@ pre .js{
 	width:auto;}
 	.thumbs{
 		width:100%;
-		height:90px;}
+		height:90px;
+		margin-bottom:35px;}
 
 /* Responsive
 -------------------------------------------------- */
@@ -327,17 +329,19 @@ pre .js{
     position: relative;
     top: 110px;
     text-align: center;
+	
 }
 .slide#ideas .info h2 {
     color: #fff;
     font-weight: normal;
+	font-size:50px;
 }
 
 /* Slide 3 */
 .slide#tour .info {
     position: absolute;
     top: 150px;
-    right: 6%;
+    right: 12%;
     width: 25%;
 }
 .slide#tour .info h2 {

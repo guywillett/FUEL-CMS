@@ -2,6 +2,8 @@
 <div class="page-header">
 <?php $p = $portfolio;
 		$image = $images;
+		$first = array_shift($image);
+		$image[] = $first;
 		$active = "active";  
 		
 		$skills = $skills;
@@ -31,7 +33,7 @@
 			<p><?=$p[0]['content']?></p>
 		</div>--><!--/span9-->
         
-        <div class="span9 left_box">
+        <div class="span8 left_box">
                 <div class="big">
                 <?php foreach($image as $i): ?>
                     <img src="<?=img_path('general/'.$i['photo'])?>" alt="<?=$i['photo']?>" />
@@ -41,19 +43,19 @@
                 <?php foreach($image as $i): ?>
                     <div class="thumb">
                         <!--<img src="<?=img_path('general/'.$i['photo'])?>" alt="<?=$i['photo']?>" />-->
-                        <img src="<?=img_path('general/'.$i['photo'])?>" />
+                        <img src="<?=img_path('general/'.getThumbnail($i['photo']))?>"  alt="<?=$i['photo']?>"/>
                         <a href="#" class="mask">
                             <div class="more">+</div>
                         </a>
                     </div>
                     <?php endforeach ?>
-                    <div class="thumb">
+                    <!--<div class="thumb">-->
                         <!--<img src="<?=img_path('general/'.$i['photo'])?>" alt="<?=$i['photo']?>" />-->
-                        <img src="<?=img_path('folio_thumb1.png')?>" />
+                      <!--  <img src="<?=img_path('folio_thumb1.png')?>" />
                         <a href="#" class="mask">
                             <div class="more">+</div>
                         </a>
-                    </div>
+                    </div>-->
                     
                 </div><!--/thumbs-->
                 <h3>Project Overview</h3>
@@ -61,7 +63,7 @@
             </div><!--/span9-->
         
         
-		<div class="span3">
+		<div class="span4">
 			<div class="widget">
 				<h4>Project Details</h4>
 				<ul>

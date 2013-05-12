@@ -1,4 +1,4 @@
-s:27327:"<!DOCTYPE html>
+s:26099:"<!DOCTYPE html>
 
 <html lang="en-US">
 <head>
@@ -19,16 +19,16 @@ s:27327:"<!DOCTYPE html>
 <!--<meta property="fb:admins" content="707836603" />-->
 <!--<meta property="fb:admins" content="pages/ChaChaCha/133907349988388" />-->
 <meta property="fb:admins" content="guy.willett.1" />
-	<link href="/assets/css/main.css?c=" media="all" rel="stylesheet"/>
-	<link href="/assets/css/font-awesome.min.css?c=" media="all" rel="stylesheet"/>
-	<link href="/assets/css/app.css?c=" media="all" rel="stylesheet"/>
-	<link href="/assets/css/responsive.css?c=" media="all" rel="stylesheet"/>
-	<link href="/assets/css/animate.css?c=" media="all" rel="stylesheet"/>
+<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+	<link href="/assets/cache/58dcc8d5087d113300770b1999c9547c_1386250200.php" media="all" rel="stylesheet"/>
+	
+	<link href="/assets/cache/e5c50115a7161c04e7adca6d5e3897d8_1386250200.php" media="all" rel="stylesheet"/>
+	
 	    <script type="text/javascript" src="/assets/js/modernizr.custom.79639.js"></script>
 <!-- Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Lato:900,700,400italic,300,400' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script><script>window.jQuery || document.write('<script src="/assets/js/jquery.js?c="><\/script>');</script></head>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script><script>window.jQuery || document.write('<script src="/assets/js/jquery.js?c=1386250200"><\/script>');</script></head>
 
 <body class="<!--__FUEL_MARKER__3--> " data-spy="scroll" data-target=".navbar">
 <div id="fb-root"></div>
@@ -53,7 +53,7 @@ s:27327:"<!DOCTYPE html>
 		<div class="container" >
 		<!-- Phone navbar button --> 
 			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
-			<a class="brand" href="http://chamdev.com/">cham<span>soft</span></a>
+			<a class="brand" href="http://www.chamdev.com/">cham<span>soft</span></a>
 			<!-- Phone navigation -->
 			<div class="nav-collapse collapse pull-right">
 				<ul id="nav" class="nav">
@@ -104,28 +104,28 @@ s:27327:"<!DOCTYPE html>
 
             For the backgrounds, you can combine from the bgs folder :D
         -->
-        <article class="slide" id="showcasing" style="background: url('/assets/images/backgrounds/landscape.png') repeat-x top center;">
-            <img class="asset left-30 sp600 t120 z1" src="/assets/images/slides/scene1/macbook.png" />
+       <article class="slide" id="showcasing" style="background: url('/assets/images/backgrounds/aqua.jpg') repeat-x top center;">
+            <img class="asset left-60 sp600 t120 z1" src="/assets/images/general/BANNER-guy.png" />
             <div class="info">
-                <h2>Beautiful theme for showcasing your works.</h2>
+                <h2>Software & Web Development</h2>
             </div>
         </article>
         <article class="slide" id="ideas" style="background: url('/assets/images/backgrounds/aqua.jpg') repeat-x top center;">
             <div class="info">
-                <h2>We love to turn ideas into beautiful things.</h2>
+                <h2>Websites</h2>
             </div>
-            <img class="asset left-480 sp600 t260 z1" src="/assets/images/slides/scene2/left.png" />
-            <img class="asset left-210 sp600 t213 z2" src="/assets/images/slides/scene2/middle.png" />
-            <img class="asset left60 sp600 t260 z1" src="/assets/images/slides/scene2/right.png" />
+            <img class="asset left-480 sp450 t260 z1" src="/assets/images/general/cha_home_medium.png" />
+            <img class="asset left-210 sp600 t213 z2" src="/assets/images/general/why_medium.png" />
+            <img class="asset left60 sp650 t260 z1" src="/assets/images/general/dg_home_medium.png" />
         </article>
         <article class="slide" id="tour" style="background: url('/assets/images/backgrounds/color-splash.jpg') repeat-x top center;">
-            <img class="asset left-472 sp650 t210 z3" src="/assets/images/slides/scene3/ipad.png" />
-            <img class="asset left-365 sp600 t270 z4" src="/assets/images/slides/scene3/iphone.png" />
-            <img class="asset left-350 sp450 t135 z2" src="/assets/images/slides/scene3/desktop.png" />
-            <img class="asset left-185 sp550 t220 z1" src="/assets/images/slides/scene3/macbook.png" />
+            <img class="asset left-452 sp650 t210 z3" src="/assets/images/slides/scene3/ipad.png" />
+            <img class="asset left-345 sp600 t270 z4" src="/assets/images/slides/scene3/iphone.png" />
+            <img class="asset left-330 sp550 t135 z2" src="/assets/images/desktop.png" />
+           <!-- <img class="asset left-185 sp550 t220 z1" src="/assets/images/slides/scene3/macbook.png" />-->
             <div class="info">
-                <h2>Fully Responsive theme</h2>
-                <a href="features.html">TOUR THE PRODUCT</a>
+                <h2>LAMP Stack, FileMaker & Python/Django</h2>
+                <a class="onepage" href="#services">What we can do for you ></a>
             </div>
         </article>
         <article class="slide" id="responsive" style="background: url('/assets/images/backgrounds/indigo.jpg') repeat-x top center;">
@@ -133,8 +133,7 @@ s:27327:"<!DOCTYPE html>
             <img class="asset left-190 sp500 t120 z2" src="/assets/images/slides/scene4/css3.png" />
             <div class="info">
                 <h2>
-                    Responsive <strong>HTML5 & CSS3</strong>
-                    Theme
+                    Responsive Web Design & Mobile Apps
                 </h2>                
             </div>
         </article>        
@@ -153,13 +152,13 @@ s:27327:"<!DOCTYPE html>
 		<div class="span4">
 			<img src="/assets/images/photo.jpg" alt="Guy Willett of Chamsoft" />
 			<h4 class="centered"><strong>Guy Willett</strong></h4>
-			<p class="centered">Guy has been programming for 2 years, using any and all of FileMaker, PHP, MySQL, CSS3, HTML5, JavaScript, Jquery and Python/Django. When not coding, he is an avid skier, climber and cyclist.</p>
+			<p class="centered">Guy is the man behind Chamsoft and uses any and all of PHP, MySQL, CSS3, HTML5, JavaScript, jQuery, FileMaker and Python/Django. When not coding, he is an avid skier, climber and cyclist.</p>
 		</div><!--/span4-->
 
 		<div class="span4">
 			<h3>Our Mission</h3>
-			<p>TOP NOTCH apps and websites is what we are all about.  Get home from work satisfied after a productive day at the keyboard.  Just in time to head into the mountains for a ski or out on the roads for a bike ride. Inspiration is all around us, particularly here at Chamsoft. </p>
-            <p>You will find that using your CMS driven website or App that was created by us for <italic>you</italic> will give you that spring in your step and help keep ahead of the curve.</p>
+			<p>TOP NOTCH Apps and Websites are what we are all about.</p>  <p>But we also like to get home, satisfied after a productive day at the keyboard, and head into the mountains for a ski or out on the roads for a bike ride.</p> <p>Inspiration is all around us, particularly here at Chamsoft. </p>
+            <p>We hope that using your Chamsoft-built website or App (created just for <em>you</em>) will give you that spring in your step and help keep you ahead of the curve.</p>
 			
 		</div><!--/span8-->
 		<div class="span4">
@@ -249,36 +248,36 @@ s:27327:"<!DOCTYPE html>
                                                             						<li class="span4">
 							<div class="thumbnail">
 								<a href="portfolio/kokopelli-property-llp">
-									<img src="/assets/images/general/small_logo.png" alt="Kokopelli Property LLP">
+									<img data-toggle="tooltip" title="Website & Web App Development" src="/assets/images/general/why_medium.png" alt="Kokopelli Property LLP">
 								</a>
 								<div class="caption">
 									<h3>Kokopelli Property LLP</h3>
 									<p><p>Property investment in Phoenix, Arizona. &nbsp;On the slate: &nbsp; a &nbsp;website with a clean and simple design. Easy to update and incorporating&nbsp;a client login area to give&nbsp;each client access to their specific fund information. &nbsp;"Simple on the outside, clever on the inside". &nbsp;A perfect candidate for our Crunch CMS platform!</p></p>
-									<p><a class="" href="portfolio/detail/kokopelli-property-llp">View Project Details</a></p>
+									<p><a class="" href="portfolio/kokopelli-property-llp">View Project Details</a></p>
 								</div><!--/caption-->
 							</div><!--/thumbnail-->
 						</li>
 					                    						<li class="span4">
 							<div class="thumbnail">
 								<a href="portfolio/cha-cha-cha-wine-spirits">
-									<img src="/assets/images/general/1BEAUNE27.jpg" alt="Cha Cha Cha Wine & Spirits">
+									<img data-toggle="tooltip" title="Website & Bespoke Search Feature" src="/assets/images/general/cha_home_medium.png" alt="Cha Cha Cha Wine & Spirits">
 								</a>
 								<div class="caption">
 									<h3>Cha Cha Cha Wine & Spirits</h3>
 									<p><p><em>The</em> wine and spirits outlet in Chamonix, France. &nbsp;They wanted it all - and they got it! CMS, blog, email, hosting, product catalogue/categories. A large and exciting project with the jewel in the crown being a bespoke product search feature - the Virtual Caviste.</p></p>
-									<p><a class="" href="portfolio/detail/cha-cha-cha-wine-spirits">View Project Details</a></p>
+									<p><a class="" href="portfolio/cha-cha-cha-wine-spirits">View Project Details</a></p>
 								</div><!--/caption-->
 							</div><!--/thumbnail-->
 						</li>
 					                    						<li class="span4">
 							<div class="thumbnail">
 								<a href="portfolio/dream-guides">
-									<img src="/assets/images/general/" alt="Dream Guides">
+									<img data-toggle="tooltip" title="FileMaker & Website" src="/assets/images/general/dg_home_medium.png" alt="Dream Guides">
 								</a>
 								<div class="caption">
 									<h3>Dream Guides</h3>
 									<p><p>A ski and mountain guiding company with close ties to Chamonix-Mont-Blanc was itching for&nbsp;a completely new dynamic website with built in client accounts and booking system , remote blogging via email (from Everest basecamp!), newsletter management and a few other bells and whistles. &nbsp;What's more, it needed to integrate with their existing FileMaker client database...</p></p>
-									<p><a class="" href="portfolio/detail/dream-guides">View Project Details</a></p>
+									<p><a class="" href="portfolio/dream-guides">View Project Details</a></p>
 								</div><!--/caption-->
 							</div><!--/thumbnail-->
 						</li>
@@ -299,36 +298,36 @@ s:27327:"<!DOCTYPE html>
 		<div class="span9">
                                 			<div class="row blog-post">
 				<div class="span3">
-					<a href="http://chamdev.com/blog/2013/05/03/how-to-making-a-scroll-to-top-button"><img src="/assets/images/2s.jpg" alt="How To:  Making a Scroll To Top button" /></a>
+					<a href="http://www.chamdev.com/blog/2013/05/03/how-to-making-a-scroll-to-top-button"><img src="/assets/images/2s.jpg" alt="How To:  Making a Scroll To Top button" /></a>
 				</div><!--/row-->
 				<div class="span6">
-					<h3><a href="http://chamdev.com/blog/2013/05/03/how-to-making-a-scroll-to-top-button">How To:  Making a Scroll To Top button </a></h3>
-					<blockquote><small>Posted by <cite><a href="#">Guy Willett</a></cite> on 3rd May 2013 in <a href="#"><a href="http://chamdev.com/blog/categories/web-development">Web Development</a></a></a></small>
-						<p><p>With faster JavaScript engines in modern browsers, a sprinkling of JS magic can really enhance the usability and feel of a website. We shouldn't go overboard though, that would be too <em>slapstick</em>, and sometimes even hinder user experience. Today I want to share with you a simple and succinct droplet of code&nbsp;which I enjoyed implementing on this website - the Scroll To Top fixed button.</p><br><a href="http://chamdev.com/blog/2013/05/03/how-to-making-a-scroll-to-top-button">Keep reading...</a></p>
+					<h3><a href="http://www.chamdev.com/blog/2013/05/03/how-to-making-a-scroll-to-top-button">How To:  Making a Scroll To Top button </a></h3>
+					<blockquote><small>Posted by <cite><a href="#">Guy Willett</a></cite> on 3rd May 2013 in <a href="#"><a href="http://www.chamdev.com/blog/categories/web-development">Web Development</a></a></a></small>
+						<p><p>With faster JavaScript engines in modern browsers, a sprinkling of JS magic can really enhance the usability and feel of a website. We shouldn't go overboard though, that would be too <em>slapstick</em>, and sometimes even hinder user experience. Today I want to share with you a simple and succinct droplet of code&nbsp;which I enjoyed implementing on this website - the Scroll To Top fixed button.</p><br><a href="http://www.chamdev.com/blog/2013/05/03/how-to-making-a-scroll-to-top-button">Keep reading...</a></p>
 					</blockquote>
 				</div><!--/span6-->
 			</div><!--/row-->
                 			<div class="row blog-post">
 				<div class="span3">
-					<a href="http://chamdev.com/blog/2013/04/30/mobile-app-or-responsive-design"><img src="/assets/images/3s.jpg" alt="Mobile App or Responsive Design?" /></a>
+					<a href="http://www.chamdev.com/blog/2013/04/30/mobile-app-or-responsive-design"><img src="/assets/images/3s.jpg" alt="Mobile App or Responsive Design?" /></a>
 				</div><!--/row-->
 				<div class="span6">
-					<h3><a href="http://chamdev.com/blog/2013/04/30/mobile-app-or-responsive-design">Mobile App or Responsive Design? </a></h3>
-					<blockquote><small>Posted by <cite><a href="#">Guy Willett</a></cite> on 30th April 2013 in <a href="#"><a href="http://chamdev.com/blog/categories/uncategorized">Uncategorized</a>, <a href="http://chamdev.com/blog/categories/web-development">Web Development</a></a></a></small>
-						<p><p>Responsive Web Design is all the rage, a buzz word, the here and now. &nbsp;But is it the be all and end all? &nbsp;When should we build a Mobile App instead, or as well? Some pros and cons&nbsp;when&nbsp;choosing a design strategy...</p><br><a href="http://chamdev.com/blog/2013/04/30/mobile-app-or-responsive-design">Keep reading...</a></p>
+					<h3><a href="http://www.chamdev.com/blog/2013/04/30/mobile-app-or-responsive-design">Mobile App or Responsive Design? </a></h3>
+					<blockquote><small>Posted by <cite><a href="#">Guy Willett</a></cite> on 30th April 2013 in <a href="#"><a href="http://www.chamdev.com/blog/categories/uncategorized">Uncategorized</a>, <a href="http://www.chamdev.com/blog/categories/web-development">Web Development</a></a></a></small>
+						<p><p>Responsive Web Design is all the rage, a buzz word, the here and now. &nbsp;But is it the be all and end all? &nbsp;When should we build a Mobile App instead, or as well? Some pros and cons&nbsp;when&nbsp;choosing a design strategy...</p><br><a href="http://www.chamdev.com/blog/2013/04/30/mobile-app-or-responsive-design">Keep reading...</a></p>
 					</blockquote>
 				</div><!--/span6-->
 			</div><!--/row-->
                 			<div class="row blog-post">
 				<div class="span3">
-					<a href="http://chamdev.com/blog/2013/04/28/up-up-and-away"><img src="/assets/images/box.png" alt="Up, Up and Away!" /></a>
+					<a href="http://www.chamdev.com/blog/2013/04/28/up-up-and-away"><img src="/assets/images/box.png" alt="Up, Up and Away!" /></a>
 				</div><!--/row-->
 				<div class="span6">
-					<h3><a href="http://chamdev.com/blog/2013/04/28/up-up-and-away">Up, Up and Away! </a></h3>
-					<blockquote><small>Posted by <cite><a href="#">Guy Willett</a></cite> on 28th April 2013 in <a href="#"><a href="http://chamdev.com/blog/categories/uncategorized">Uncategorized</a></a></a></small>
+					<h3><a href="http://www.chamdev.com/blog/2013/04/28/up-up-and-away">Up, Up and Away! </a></h3>
+					<blockquote><small>Posted by <cite><a href="#">Guy Willett</a></cite> on 28th April 2013 in <a href="#"><a href="http://www.chamdev.com/blog/categories/uncategorized">Uncategorized</a></a></a></small>
 						<p><p>Proudly anouncing the launch of the new Chamsoft website : da-da!</p>
 
-<p>I actually had a blast building this website,&nbsp;so thought I would share some insights about it...</p><br><a href="http://chamdev.com/blog/2013/04/28/up-up-and-away">Keep reading...</a></p>
+<p>I actually had a blast building this website,&nbsp;so thought I would share some insights about it...</p><br><a href="http://www.chamdev.com/blog/2013/04/28/up-up-and-away">Keep reading...</a></p>
 					</blockquote>
 				</div><!--/span6-->
 			</div><!--/row-->
@@ -340,16 +339,16 @@ s:27327:"<!DOCTYPE html>
 			<div class="widget">
 				<h4>Blog Categories</h4>
 				<ul>
-                <li><a href="http://chamdev.com/blog/categories/uncategorized"><i class="icon-angle-right"></i>Uncategorized</a> (2)</li>
-                    <li><a href="http://chamdev.com/blog/categories/web-development"><i class="icon-angle-right"></i>Web Development</a> (2)</li>
+                <li><a href="http://www.chamdev.com/blog/categories/uncategorized"><i class="icon-angle-right"></i>Uncategorized</a> (2)</li>
+                    <li><a href="http://www.chamdev.com/blog/categories/web-development"><i class="icon-angle-right"></i>Web Development</a> (2)</li>
                                         				</ul>
                 <p>We like to write about what has intrigued, excited and occasionally annoyed us!</p>
 			</div><!--/widget-->
             <div class="widget">
             <h4>Archives</h4>
             <ul>
-            		<li><a href="http://chamdev.com/blog/2013/05"><i class="icon-angle-right"></i>May 2013</a> (1)</li>
-				<li><a href="http://chamdev.com/blog/2013/04"><i class="icon-angle-right"></i>April 2013</a> (2)</li>
+            		<li><a href="http://www.chamdev.com/blog/2013/05"><i class="icon-angle-right"></i>May 2013</a> (1)</li>
+				<li><a href="http://www.chamdev.com/blog/2013/04"><i class="icon-angle-right"></i>April 2013</a> (2)</li>
 		            </ul>
             </div><!--/widget-->
 			<!--<div class="widget">
@@ -415,7 +414,7 @@ s:27327:"<!DOCTYPE html>
 					<textarea rows="3" id="inputMessageContact" class="input-block-level" placeholder="Message"></textarea>
 					<button type="submit" class="btn btn-primary">Send Message</button>
 				</form>-->
-                <form method="post" action=""><div class="form" id="form_518652b18d53b">
+                <form method="post" action=""><div class="form" id="form_518fd542cea6e">
 <script language="JavaScript" type="text/javascript">
 // <![CDATA[
 try { $(function(){ $('.error_highlight input:first').focus(); }); } catch(e){};
@@ -437,12 +436,12 @@ try { $(function(){ $('.error_highlight input:first').focus(); }); } catch(e){};
 </tr>
 </tbody>
 </table>
-</div></form><script src="/fuel/modules/fuel/assets/js/jquery/plugins/jquery.formbuilder.js?c=" type="text/javascript" charset="utf-8"></script>
-	<script src="/fuel/modules/fuel/assets/js/fuel/custom_fields.js?c=" type="text/javascript" charset="utf-8"></script>
+</div></form><script src="/fuel/modules/fuel/assets/js/jquery/plugins/jquery.formbuilder.js?c=1386250200" type="text/javascript" charset="utf-8"></script>
+	<script src="/fuel/modules/fuel/assets/js/fuel/custom_fields.js?c=1386250200" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 //<![CDATA[
 
-if (jQuery){ jQuery(function(){if (jQuery.fn.formBuilder) {if (typeof(window['formBuilderFuncs']) == "undefined") { window['formBuilderFuncs'] = {}; };window['formBuilderFuncs'] = jQuery.extend(window['formBuilderFuncs'], []);jQuery("#form_518652b18d53b").formBuilder(window['formBuilderFuncs']);jQuery("#form_518652b18d53b").formBuilder().initialize();}})}
+if (jQuery){ jQuery(function(){if (jQuery.fn.formBuilder) {if (typeof(window['formBuilderFuncs']) == "undefined") { window['formBuilderFuncs'] = {}; };window['formBuilderFuncs'] = jQuery.extend(window['formBuilderFuncs'], []);jQuery("#form_518fd542cea6e").formBuilder(window['formBuilderFuncs']);jQuery("#form_518fd542cea6e").formBuilder().initialize();}})}
 //]]>
 </script>
 				</div><!--/span4-->
@@ -456,52 +455,10 @@ if (jQuery){ jQuery(function(){if (jQuery.fn.formBuilder) {if (typeof(window['fo
 		</div>
 	</div>
 <!--</div>-->
-<script src="/assets/js/main.js?c=" type="text/javascript" charset="utf-8"></script>
-	<script src="/assets/js/bootstrap.min.js?c=" type="text/javascript" charset="utf-8"></script>
-	<script src="/assets/js/index-slider.js?c=" type="text/javascript" charset="utf-8"></script>
-	<script src="/assets/js/onepage.js?c=" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript">	
-	/*$(function() {
-		var Page = (function() {
-			var $nav = $( '#nav-dots > span' ),
-				slitslider = $( '#slider' ).slitslider( {
-					onBeforeChange : function( slide, pos ) {
-						$nav.removeClass( 'nav-dot-current' );
-						$nav.eq( pos ).addClass( 'nav-dot-current' );
-					}
-				} ),
-				init = function() {
-					initEvents();
-				},
-				initEvents = function() {
-					$nav.each( function( i ) {
-						$( this ).on( 'click', function( event ) {
-							var $dot = $( this );
-							if( !slitslider.isActive() ) {
-								$nav.removeClass( 'nav-dot-current' );
-								$dot.addClass( 'nav-dot-current' );
-							}
-							slitslider.jump( i + 1 );
-							return false;
-						} );
-					} );
-				};
-				return { init : init };
-		})();
-		Page.init();*/
-		/**
-		 * Notes: 
-		 * 
-		 * example how to add items:
-		 */
-
-		/*
-		var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
-		// call the plugin's add method
-		ss.add($items);
-		*/
-	//});
-</script>
-
+<script src="/assets/cache/801424fe82d404e61f59da073f86aa69_1386250200.php" type="text/javascript" charset="utf-8"></script>
+	
+	<script src="/assets/cache/b0f9cadf8db7739663af9a7c30fd68ef_1386250200.php" type="text/javascript" charset="utf-8"></script>
+	
+	
 </body>
 </html>";

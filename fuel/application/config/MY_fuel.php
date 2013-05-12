@@ -34,6 +34,9 @@ $config['modules_allowed'] = array(
 );
 
 $config['dashboards'][] = 'backup';
+
+//$config['dashboard_rss'] = 'http://www.getfuelcms.com/blog/feed/rss';
+$config['dashboard_rss'] = 'http://chamdev.com/blog/feed/rss';
 // used for system emails
 $config['domain'] = '';
 
@@ -60,11 +63,16 @@ $config['auto_search_views'] = FALSE;
 $config['assets_upload_max_size']	= 5000;
 
 // max width for asset images beign uploaded
-$config['assets_upload_max_width']  = 1024;
+//$config['assets_upload_max_width']  = 1024;
 
 // max height for asset images beign uploaded
-$config['assets_upload_max_height']  = 768;
+//$config['assets_upload_max_height']  = 768;
 
+// max width for asset images beign uploaded
+$config['assets_upload_max_width']  = 2024;
+
+// max height for asset images beign uploaded
+$config['assets_upload_max_height']  = 1768;
 
 // text editor settings  (options are markitup or ckeditor)
 // markitup: allows you to visualize the code in its raw format - not wysiwyg (http://markitup.jaysalvat.com/)

@@ -29,7 +29,7 @@ $config['assets_absolute_path'] = FALSE;
 
 // used for caching
 $config['assets_last_updated'] = '00/00/0000 00:00:00';
-$config['assets_last_updated'] = '27/04/2013 16:40:00';
+$config['assets_last_updated'] = '12/05/2013 14:30:00';
 
 // appends timestamp of last updated after file name
 $config['asset_append_cache_timestamp'] = array('js', 'css');
@@ -56,7 +56,7 @@ There is not an option for not combining files. To do that, you just call the
 js/css function without multiple file in the first parameter
 */
 
-$config['assets_output'] = FALSE;
+$config['assets_output'] = TRUE;
 
 // cache folder relative to the web root folder... must be writable directory (default is the application/assets/cache folder)
 $config['assets_cache_folder'] = 'cache/';

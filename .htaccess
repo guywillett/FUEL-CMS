@@ -19,6 +19,20 @@ RewriteRule . http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 	# Protect application and system files from being viewed
 	RewriteRule ^(fuel/install/.+|fuel/crons/.+|fuel/data_backup/.+|fuel/codeigniter/.+|fuel/modules/.+|fuel/application/.+) - [F,L]
 
+# Adaptive-Images -----------------------------------------------------------------------------------
+
+# Add any directories you wish to omit from the Adaptive-Images process on a new line, as follows:
+# RewriteCond %{REQUEST_URI} !some-directory
+# RewriteCond %{REQUEST_URI} !another-directory
+
+RewriteCond %{REQUEST_URI} images
+#RewriteCond %{REQUEST_URI} !backgrounds
+
+# Send any GIF, JPG, or PNG request that IS NOT stored inside one of the above directories
+# to adaptive-images.php so we can select appropriately sized versions
+RewriteRule \.(?:jpe?g|gif|png)$ adaptive-images.php
+
+# END Adaptive-Images -------------------------------------------------------------------------------
 
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
