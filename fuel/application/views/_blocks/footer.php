@@ -3,6 +3,83 @@
 		$CI->load->library('session');
 		$CI->load->library('form_builder');
 		
+		//$this->load->library('session');
+		//$this->load->library('form_builder');
+		//mail('guy@chamsoft.co','testFF','test','from: guy@chamsoft.co');
+		//print_r($_POST);//die("dead");
+		if (!empty($_POST) )
+		{
+			//mail('guy@chamsoft.co','testSS','test'.$_POST,'from: guy@chamsoft.co');
+			//print_r($_POST);//die("dead");
+			// put your processing code here... we show what we do for emailing. You will need to add a correct email address
+			if (_process($_POST))
+			{
+				$CI->session->set_flashdata('success', TRUE); 
+				//redirect('contact'); ?>
+				<script type="text/javascript">$('.message-success').show()</script>
+				<?php redirect(current_url());
+			}
+		}
+		
+		
+		
+		function _process($data)
+	{
+		$CI =& get_instance();
+		$CI->load->library('validator');
+		/*
+		Set rules up here so we can pass them to the form_builder to display errors.
+		validator_helper contains the valid_email function... validator helper automatically gets' looded with Validation Class'
+		*/
+		
+		
+		$CI->validator->add_rule('name', 'required', 'Please enter in your name', $CI->input->post('name'));
+		//$this->validator->add_rule('last_name', 'required', lang('Please_enter_in_an_last_name'), $this->input->post('last_name'));
+		$CI->validator->add_rule('email', 'valid_email', 'Please enter in a valid email', $CI->input->post('email'));
+		$CI->validator->add_rule('message', 'required', 'Please enter in a message', $CI->input->post('message'));
+		
+		
+		if ($CI->validator->validate())
+		{
+			$CI->load->library('email');
+			$CI->load->helper('inflector');
+
+			// send email
+			$CI->email->from($data['email'], $data['name']);
+
+			/*********************************************************************
+			YOU MUST FILL OUT THE CORRECT dev_email config in application/config/MY_config.php
+			AND/OR THE CORRECT TO email address
+			*********************************************************************/
+			// check config if we are in dev mode
+			if ($CI->config->item('dev_mode'))
+			{
+				//$this->email->to($this->config->item('dev_email'));
+				$CI->email->to('guy@chamsoft.co');
+			}
+			else
+			{
+				// need to fill this out to work
+				$CI->email->to('info@chamsoft.co.uk, guy@chamsoft.co');
+			}
+			$CI->email->subject('Website Contact Form');
+			$msg = "The following information was submitted:\n\n";
+			foreach($data as $key => $val)
+			{
+				$msg .= humanize($key, 3).": ".$val."\n\n";
+			}
+			$CI->email->message($msg);
+			
+			// let her rip
+			if (!$CI->email->send())
+			{
+				add_error('There was an error notifying');
+				return FALSE;
+			} 
+
+			return TRUE;
+		}
+	}
 		/*if (!empty($_POST) )
 		{
 			// put your processing code here... we show what we do for emailing. You will need to add a correct email address
@@ -24,7 +101,7 @@
 		$CI->form_builder->set_fields($fields);
 		
 		 // will set the values of the fields if there is an error... must be after set_fields
-		$CI->form_builder->set_validator($this->validator);
+		$CI->form_builder->set_validator($CI->validator);
 		$CI->form_builder->set_field_values($_POST);
 		$CI->form_builder->display_errors = TRUE;
 		$CI->form_builder->required_text = '<span><span class="required">*</span>required fields<span>';
@@ -78,6 +155,7 @@
 				</div><!--/span5-->
 				<div class="span4">
 					<h3>Get In Touch!</h3>
+                    <ul class ="message-success" style="display:none;"><li class ="message-success" style="display:none;">Thank you for your Message!</li></ul>
 					<!--<form id="contact-form">
 					<input type="text" class="input-block-level" id="inputNameContact" placeholder="Name">
 					<input type="text" class="input-block-level" id="inputEmailContact" placeholder="Email">

@@ -7,9 +7,10 @@
 	function index(){
 		$this->load->library('session');
 		$this->load->library('form_builder');
-		
+		mail('guy@chamsoft.co','testFF','test','from: guy@chamsoft.co');
 		if (!empty($_POST) )
-		{
+		{mail('guy@chamsoft.co','testSS','test');
+			print_r($_POST);die("dead");
 			// put your processing code here... we show what we do for emailing. You will need to add a correct email address
 			if ($this->_process($_POST))
 			{

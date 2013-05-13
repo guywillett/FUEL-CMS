@@ -16,6 +16,7 @@
 			}
 		?>
 	</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<meta name="keywords" content="<?php echo fuel_var('meta_keywords')?>">
 	<meta name="description" content="<?php echo fuel_var('meta_description')?>">
@@ -100,7 +101,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
-					<li class="dropdown">
+					<!--<li class="dropdown">
 					<a href="#" id="a" class="dropdown-toggle" data-toggle="dropdown">
 					Just 4 fun
 					<b class="caret"></b>
@@ -113,7 +114,7 @@
 							<li><a href="#">In too</a>
 							<li><a href="404.html">404 Page</a></li>
 						</ul>
-					</li>
+					</li>-->
 					<li><a href="#blog">Blog</a></li>
 					<li><a href="#footer">Contact</a></li>
 				</ul>

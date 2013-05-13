@@ -56,7 +56,7 @@ There is not an option for not combining files. To do that, you just call the
 js/css function without multiple file in the first parameter
 */
 
-$config['assets_output'] = TRUE;
+$config['assets_output'] = FALSE;
 
 // cache folder relative to the web root folder... must be writable directory (default is the application/assets/cache folder)
 $config['assets_cache_folder'] = 'cache/';

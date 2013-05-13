@@ -80,7 +80,7 @@ div#footer a { color: #3E4045; }*/
 div#footer_top div#footer_follow {  width: 120px; }
 div#footer_bot { padding: 10px 50px; height: 30px; }
 div#request_demo_container { position: absolute; right: 85px; top: 30px; }
-div#copyright {  text-align: center; width: 800px; margin: auto;}
+div#copyright {  text-align: center; width: 100%; margin: auto;}
 
 #scroll_top{
 	z-index:33;

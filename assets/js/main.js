@@ -19,7 +19,8 @@ $(window).scroll(
 
 $('#scroll_top').click(function(e){
 	e.preventDefault();
-	$('html, body').animate({scrollTop: 0}, 1200);
+	console.log("to top")
+	$('html, body').animate({scrollTop: 1}, 1200);
 	});
 	
 var alter = 50
