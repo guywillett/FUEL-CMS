@@ -1,6 +1,6 @@
 [submodule "fuel/modules/blog"]
 	path = fuel/modules/blog
-	url = git://github.com/daylightstudio/FUEL-CMS-Blog-Module.git
+	url = https://github.com/guywillett/FUEL-CMS-Blog-Module.git
 [submodule "fuel/modules/user_guide"]
 	path = fuel/modules/user_guide
 	url = git://github.com/daylightstudio/FUEL-CMS-User-Guide-Module.git

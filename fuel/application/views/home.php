@@ -13,6 +13,7 @@
             Note: Maintain this order of params
 
             For the backgrounds, you can combine from the bgs folder :D
+            GUY HAS MADE THIS SLIDER AWESOME!
         -->
        <article class="slide" id="showcasing" style="background: url('/assets/images/backgrounds/aqua.jpg') repeat-x top center;">
             <img class="asset left-60 sp600 t120 z1" src="/assets/images/general/BANNER-guy.png" />
