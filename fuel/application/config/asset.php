@@ -29,7 +29,7 @@ $config['assets_absolute_path'] = FALSE;
 
 // used for caching
 $config['assets_last_updated'] = '00/00/0000 00:00:00';
-$config['assets_last_updated'] = '12/05/2013 14:30:00';
+$config['assets_last_updated'] = '13/05/2013 02:30:00';
 
 // appends timestamp of last updated after file name
 $config['asset_append_cache_timestamp'] = array('js', 'css');
