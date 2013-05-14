@@ -33,7 +33,7 @@ $(window).scroll(
 				$('.navbar-inner').removeClass('sticky');
 				}
 		setTimeout(function(){
-			//compensate()
+			compensate()
 			$('.collapse').collapse('hide')}, 1200)}//collapse is a bootstrap function. 1200 is same time that the page scrolling takes...
 		
 );
@@ -41,7 +41,7 @@ $(window).scroll(
 $('#scroll_top').click(function(e){
 	e.preventDefault();
 	console.log("to top")
-	$('html, body').animate({scrollTop: 0}, 1200,'swing', compensate2());
+	$('html, body').animate({scrollTop: 0}, 1200,'swing', compensate());
 	});
 	
 var alter = 50
@@ -119,14 +119,6 @@ var portfolioItem = {
 }
 
 function compensate(){
-	var elem = document.documentElement
-	var width = elem.style.width, px = elem.offsetWidth + 1;
-	elem.style.width = px + 'px';
-	setTimeout(function(){
-		elem.style.width = (px-1)+'px';
-		elem = null;
-		}, 0);
-	}
-function compensate2(){
-	$('body, html').scrollTop(0)
+	$('body').append($('<span></span>').addClass('iosfix'));
+	setTimeout($('.iosfix').remove(), 500);
 	}
