@@ -116,7 +116,8 @@
 						</ul>
 					</li>-->
 					<li><a href="#blog">Blog</a></li>
-					<li><a href="#footer">Contact</a></li>
+					<li><a href="#contact">Contact</a></li>
+                    <li style="display:none;"><a href="#contactform"></a></li><!--just for onepage nav-->
 				</ul>
 			</div><!--/nav-collapse--> 
 		</div><!--/container-->

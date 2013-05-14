@@ -202,17 +202,20 @@ pre .js{
 		margin-bottom: 50px;
 	}
 	#portfolio_tem .left_box .thumbs{
-		overflow: hidden;
+		/*overflow: hidden;*/
+		height:180px;
 	}
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	#portfolio_tem .left_box .big {
-		max-height: 350px;
+		/*max-height: 350px;GUY*/
+		max-height: 300px;
 	}
 	#portfolio_tem .left_box .big img {
 		margin-bottom: 10px;
-		max-height: 350px;
+		/*max-height: 350px;GUY*/
+		max-height: 300px;
 	}
 	#portfolio_tem .thumbs .thumb{
 		margin-right: 5px;

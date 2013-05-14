@@ -205,7 +205,8 @@ jQuery.extend(jQuery.easing, {
 });
 
 var center = $(window).width() / 2;
-$(document).ready(function () {
+//$(document).ready(function () {
+function indexSlider(){//GUY
     function d() {
         $(".slide.active img").each(function () {
             var g = parseInt($(this).attr("class").split(" ")[1].replace("left", ""));
@@ -372,4 +373,6 @@ $(document).ready(function () {
         center = $(window).width() / 2;
         d()
     });
-});
+	
+//}); GUY
+};

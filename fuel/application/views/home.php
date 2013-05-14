@@ -15,7 +15,7 @@
             For the backgrounds, you can combine from the bgs folder :D
             GUY HAS MADE THIS SLIDER AWESOME!
         -->
-       <article class="slide" id="showcasing" style="background: url('/assets/images/backgrounds/aqua.jpg') repeat-x top center;">
+      <!-- <article class="slide" id="showcasing" style="background: url('/assets/images/backgrounds/aqua.jpg') repeat-x top center;">
             <img class="asset left-60 sp600 t120 z1" src="/assets/images/general/BANNER-guy.png" />
             <div class="info">
                 <h2>Software & Web Development</h2>
@@ -33,7 +33,6 @@
             <img class="asset left-452 sp650 t210 z3" src="/assets/images/slides/scene3/ipad.png" />
             <img class="asset left-345 sp600 t270 z4" src="/assets/images/slides/scene3/iphone.png" />
             <img class="asset left-330 sp550 t135 z2" src="/assets/images/desktop.png" />
-           <!-- <img class="asset left-185 sp550 t220 z1" src="/assets/images/slides/scene3/macbook.png" />-->
             <div class="info">
                 <h2>LAMP Stack, FileMaker & Python/Django</h2>
                 <a class="onepage" href="#services">What we can do for you ></a>
@@ -47,11 +46,12 @@
                     Responsive Web Design & Mobile Apps
                 </h2>                
             </div>
-        </article>        
+        </article>        -->
+        
     </section>
 
 <!--/home-slider-->
-
+<p id="gee-whiz" style="padding-top:40px;">For some Gee-Whiz <a href="#" id="load-carousel">load the fancy carousel</a></p>
 <div class="white-bg-full">
 	<h3 class="centered">Hire a Coding RockStar!</h3>
 </div><!--white-bg-full-->

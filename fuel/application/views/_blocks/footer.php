@@ -15,9 +15,8 @@
 			if (_process($_POST))
 			{
 				$CI->session->set_flashdata('success', TRUE); 
-				//redirect('contact'); ?>
-				<script type="text/javascript">$('.message-success').show()</script>
-				<?php redirect(current_url());
+				//redirect('contact'); //redirect(current_url());
+				redirect('/?s=s/#/contactform');
 			}
 		}
 		
@@ -107,6 +106,7 @@
 		$CI->form_builder->required_text = '<span><span class="required">*</span>required fields<span>';
 		$CI->form_builder->submit_value = "Send Message";
 		$CI->form_builder->submit_class= "btn btn-primary";
+		$CI->form_builder->form_attrs = 'method="post" action="/#/contactform"';
 		$form = $CI->form_builder->render();
         ?>
         
@@ -126,10 +126,10 @@
 			</ul>
 		</div><!--/container-->
 	</div><!--logos-bar-->
-	<div class="footer-bar">
+	<div class="footer-bar" >
 		<div class="container">
 			<div class="row">
-				<div class="span3">
+				<div class="span3" id="contact" data-type="page" data-name="contact">
 					<h3>Stay Connected</h3>
 					<ul class="social-media">
 						<li><a href="https://www.facebook.com/chamsoft1" class="facebook"><i class="icon-facebook"></i></a></li>
@@ -139,7 +139,7 @@
 						<li><a href="https://github.com/guywillett" class="github"><i class="icon-github"></i></a></li>
 						<li><a href="http://uk.linkedin.com/pub/guy-willett/44/697/490" class="linkedin"><i class="icon-linkedin"></i></a></li>
 					</ul>
-					<h4>Contact Us</h4>
+					<h4 >Contact Us</h4>
 					<p>
 					Chamsoft Ltd<br>
 					14 Cautley Avenue<br>
@@ -153,7 +153,8 @@
 				<!--ajax tweets in here-->
                 <div id="tweet-ajax"></div>
 				</div><!--/span5-->
-				<div class="span4">
+				<div class="span4" id="contactform" data-type="page" data-name="contactform">
+                
 					<h3>Get In Touch!</h3>
                     <ul class ="message-success" style="display:none;"><li class ="message-success" style="display:none;">Thank you for your Message!</li></ul>
 					<!--<form id="contact-form">
@@ -164,6 +165,7 @@
 				</form>-->
                 <?php  echo $form; ?>
 				</div><!--/span4-->
+                
 			</div><!--/row-->
 		</div><!--/container-->
 	</div><!--/footer-bar-->

@@ -71,4 +71,45 @@ private function getTweetHTML($json){
 	
 	echo $return;
 	}
+	
+function getCarousel(){
+	ob_start(); 
+	?>
+       <article class="slide" id="showcasing" style="background: url('/assets/images/backgrounds/aqua.jpg') repeat-x top center;">
+            <img class="asset left-60 sp600 t120 z1" src="/assets/images/general/BANNER-guy.png" />
+            <div class="info">
+                <h2>Software & Web Development</h2>
+            </div>
+        </article>
+        <article class="slide" id="ideas" style="background: url('/assets/images/backgrounds/aqua.jpg') repeat-x top center;">
+            <div class="info">
+                <h2>Websites</h2>
+            </div>
+            <img class="asset left-480 sp450 t260 z1" src="/assets/images/general/cha_home_medium.png" />
+            <img class="asset left-210 sp600 t213 z2" src="/assets/images/general/why_medium.png" />
+            <img class="asset left60 sp650 t260 z1" src="/assets/images/general/dg_home_medium.png" />
+        </article>
+        <article class="slide" id="tour" style="background: url('/assets/images/backgrounds/color-splash.jpg') repeat-x top center;">
+            <img class="asset left-452 sp650 t210 z3" src="/assets/images/slides/scene3/ipad.png" />
+            <img class="asset left-345 sp600 t270 z4" src="/assets/images/slides/scene3/iphone.png" />
+            <img class="asset left-330 sp550 t135 z2" src="/assets/images/desktop.png" />
+            <div class="info">
+                <h2>LAMP Stack, FileMaker & Python/Django</h2>
+                <a class="onepage" href="#services">What we can do for you ></a>
+            </div>
+        </article>
+        <article class="slide" id="responsive" style="background: url('/assets/images/backgrounds/indigo.jpg') repeat-x top center;">
+            <img class="asset left-472 sp600 t120 z3" src="/assets/images/slides/scene4/html5.png" />
+            <img class="asset left-190 sp500 t120 z2" src="/assets/images/slides/scene4/css3.png" />
+            <div class="info">
+                <h2>
+                    Responsive Web Design & Mobile Apps
+                </h2>                
+            </div>
+        </article> 
+        <?php       
+    $return = ob_get_contents();
+	
+	//echo $return;
+	}
 }
