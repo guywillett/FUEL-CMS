@@ -3,8 +3,10 @@ Options +FollowSymLinks
 <IfModule mod_rewrite.c>
 	RewriteEngine On
 	  RewriteCond %{HTTP_HOST} !^www\..+$ [NC]
-RewriteRule . http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 # uncomment the above 2 lines, and adjust to RewriteBase /  for stuff on server
+#RewriteCond %{HTTP_HOST} ^chamsoft.co.uk [nc]
+#RewriteRule ^(.*)$ http://www.chamsoft.co.uk/$1 [r=301,L]
 	 RewriteBase /
 	#RewriteBase /chamsoft-website/
 
@@ -26,7 +28,7 @@ RewriteRule . http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 # RewriteCond %{REQUEST_URI} !another-directory
 
 RewriteCond %{REQUEST_URI} images
-#RewriteCond %{REQUEST_URI} !backgrounds
+RewriteCond %{REQUEST_URI} !backgrounds
 
 # Send any GIF, JPG, or PNG request that IS NOT stored inside one of the above directories
 # to adaptive-images.php so we can select appropriately sized versions

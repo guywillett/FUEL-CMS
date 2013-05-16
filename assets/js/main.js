@@ -6,12 +6,15 @@ var url= window.location.href
 var segments = url.split("//")
 var segments2 = segments[1].split("/")
 var carousel_url = segments[0] + '//' + segments2[0] +"/ajax/getCarousel"
-if(resolution <500){//only load carousel if not iPhone
+if(resolution >500){//only load carousel if not iPhone
 	$('#gee-whiz').hide()
 	$('#feature_slider').load(carousel_url, function(){
 		indexSlider()
 		})
 	}
+	else {
+		$('.navbar-inner').addClass('sticky');
+		$('#gee-whiz').hide()}//remove this bit when carousel has been optimised for iPhone :)
 $('#load-carousel').click(function(e){
 	e.preventDefault
 	$('#gee-whiz').hide()
@@ -27,13 +30,14 @@ $(window).scroll(
 			}else{
 				$('#scroll_top').fadeOut();
 				}
-		if($(this).scrollTop() > 30 || resolution < 500){
+				if(resolution > 500){
+		if($(this).scrollTop() > 30 ){
 			$('.navbar-inner').addClass('sticky');//sticky has css transitions for padding
 			}else{
 				$('.navbar-inner').removeClass('sticky');
 				}
+				}
 		setTimeout(function(){
-			compensate()
 			$('.collapse').collapse('hide')}, 1200)}//collapse is a bootstrap function. 1200 is same time that the page scrolling takes...
 		
 );
@@ -41,7 +45,7 @@ $(window).scroll(
 $('#scroll_top').click(function(e){
 	e.preventDefault();
 	console.log("to top")
-	$('html, body').animate({scrollTop: 0}, 1200,'swing', compensate());
+	$('html, body').animate({scrollTop: 0}, 1200,'swing', function(){setTimeout(function(){compensate2()},100)});
 	});
 	
 var alter = 50
@@ -65,9 +69,9 @@ var options = {
 			'targetPages' : [{'get' : 'div[data-type="page"]', 'target' : 'data-name'}],
 			'detectByHash' : true,
 			'detectByScroll' : true,
-			'detectByResize' : true,
+			'detectByResize' : false,
 			'beforeScroll' : function( menu, page, $this ) {},
-			'afterScroll' : function( menu, page, $this ) {}
+			'afterScroll' : function( menu, page, $this ) {compensate()}
 		}
 
 		
@@ -92,14 +96,35 @@ $('.thumbnail a img').tooltip()
 var tweet_url = segments[0] + '//' + segments2[0] +"/ajax/getTweets"//use the current url to avoid cross-domain access problems with 'www' or without 'www'
 $('#tweet-ajax').load(tweet_url)
 
-if(segments2[1] == '?s=s'){
+if(segments2[1] == '?s=s'){//contact form success <span> - show if successful!
 	$('.message-success').show()
 	} else {
 		$('.message-success').hide()
 		}
-		
+
+changeLinks()
+window.onorientationchange = changeLinks
+
+ function changeLinks(){//change mobile-menu to 2 rows of 3 links in landscape mode...and back to normal in portrait
+	if(Math.abs(window.orientation) == 90 && resolution < 500){
+		$('#nav li').addClass('landscape-links')
+		}else {$('#nav li').removeClass('landscape-links')}
+	}
+
 portfolioItem.initialize()
+
+if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {//prevent screen from zooming in when changing to landscape mode on iOS, until user does a zoom gesture...
+    var viewportmeta = document.querySelector('meta[name="viewport"]');
+    if (viewportmeta) {
+        viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0';
+        document.body.addEventListener('gesturestart', function () {
+            viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+        }, false);
+    }
+}
+
 });
+
 
 var portfolioItem = {
     initialize: function () {
@@ -118,7 +143,21 @@ var portfolioItem = {
     }
 }
 
+
 function compensate(){
-	$('body').append($('<span></span>').addClass('iosfix'));
-	setTimeout($('.iosfix').remove(), 500);
+	
+	$('body').css('width', '+=1');
+	setTimeout(function(){
+		$('body').css('width', '');
+		},0)
+		
+	}
+
+function compensate2(){
+	
+	$('body').css('width', '+=1');
+	setTimeout(function(){
+		$('body').css('width', '');
+		return false;
+		},100)
 	}

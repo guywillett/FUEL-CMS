@@ -568,6 +568,8 @@ pre .js{
     }
 }
 /*************GUY**********************/
-.iosfix{
-	height:101%;
-	overflow:hidden;}
+.landscape-links{
+	width:50% !important;
+	float:left !important;}
+.landscape-links:last-child{
+	margin-bottom:10px;}
