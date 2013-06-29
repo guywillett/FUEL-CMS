@@ -44,7 +44,7 @@ $(window).scroll(
 
 $('#scroll_top').click(function(e){
 	e.preventDefault();
-	console.log("to top")
+	//console.log("to top")
 	$('html, body').animate({scrollTop: 0}, 1200,'swing', function(){setTimeout(function(){compensate2()},100)});
 	});
 	
@@ -61,8 +61,8 @@ if(navbar > 100){//the height is bigger when in 'mobile mode' so need to adjust 
 if(resolution < 500){//iPhone
 	alter -= 50
 	}
-		console.log("alter "+alter)
-		console.log("res: "+resolution)
+		//console.log("alter "+alter)
+		//console.log("res: "+resolution)
 var options = {
 			'offsetHeader' : $('.navbar').height() - $('#nav').height() + alter ,
 			'targetMenus' : [{'get' : '.onepage, #nav a:not("#a, #brand")', 'target' : 'href'}],
@@ -82,7 +82,7 @@ if(segments2[1] != 'blog' && segments2[1] != 'portfolio'){//don't use onepage na
 	$('#nav a').click(function(e){
 		e.preventDefault()
 		var new_url = segments[0] + '//' + segments2[0] + $(this).attr('href')//include hash in url so onepage nav picks it up :)
-		console.log(new_url)
+		//console.log(new_url)
 		window.location.href = new_url
 		});
 	}

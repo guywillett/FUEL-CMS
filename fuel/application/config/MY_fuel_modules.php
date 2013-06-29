@@ -35,3 +35,5 @@ $config['modules']['portfolio'] = array(
 /*********************** OVERWRITES ************************************/
 $config['module_overwrites']['categories']['hidden'] = TRUE; // change to FALSE if you want to use the generic categories module
 $config['module_overwrites']['tags']['hidden'] = TRUE; // change to FALSE if you want to use the generic tags module
+//$config['module_overwrites']['notification']['library_name'] = 'MY_Fuel_notification';
+//$config['module_overwrites']['notification']['location'] = 'app';

@@ -6516,3 +6516,9 @@ ul.pricing-table.featured li a.btn {
 	color:blue }
 pre.js, code.js{
 	color:green !important;}
+@media (min-width: 1500px){
+section#feature_slider{
+	max-width:1500px;
+	margin-left:auto;
+	margin-right:auto}
+}

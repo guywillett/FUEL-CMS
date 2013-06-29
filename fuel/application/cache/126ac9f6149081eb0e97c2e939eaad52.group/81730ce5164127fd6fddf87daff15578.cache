@@ -1,4 +1,4 @@
-s:13137:"<!DOCTYPE html>
+s:13736:"<!DOCTYPE html>
 
 <html lang="en-US">
 <head>
@@ -6,6 +6,7 @@ s:13137:"<!DOCTYPE html>
 
 	<title>
 		Web Development&laquo;Categories&laquo; : 	</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<meta name="keywords" content="chamsoft, web development, responsive design, website, web design">
 	<meta name="description" content="Chamsoft web development, web apps, websites, web design and filemaker development in London, UK and Chamonix. Responsive designs for websites and mobile applications.">
@@ -19,6 +20,7 @@ s:13137:"<!DOCTYPE html>
 <!--<meta property="fb:admins" content="707836603" />-->
 <!--<meta property="fb:admins" content="pages/ChaChaCha/133907349988388" />-->
 <meta property="fb:admins" content="guy.willett.1" />
+<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 	<link href="/assets/css/main.css?c=" media="all" rel="stylesheet"/>
 	<link href="/assets/css/font-awesome.min.css?c=" media="all" rel="stylesheet"/>
 	<link href="/assets/css/app.css?c=" media="all" rel="stylesheet"/>
@@ -64,7 +66,7 @@ s:13137:"<!DOCTYPE html>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
-					<li class="dropdown">
+					<!--<li class="dropdown">
 					<a href="#" id="a" class="dropdown-toggle" data-toggle="dropdown">
 					Just 4 fun
 					<b class="caret"></b>
@@ -77,9 +79,10 @@ s:13137:"<!DOCTYPE html>
 							<li><a href="#">In too</a>
 							<li><a href="404.html">404 Page</a></li>
 						</ul>
-					</li>
+					</li>-->
 					<li><a href="#blog">Blog</a></li>
-					<li><a href="#footer">Contact</a></li>
+					<li><a href="#contact">Contact</a></li>
+                    <li style="display:none;"><a href="#contactform"></a></li><!--just for onepage nav-->
 				</ul>
 			</div><!--/nav-collapse--> 
 		</div><!--/container-->
@@ -210,10 +213,10 @@ s:13137:"<!DOCTYPE html>
 			</ul>
 		</div><!--/container-->
 	</div><!--logos-bar-->
-	<div class="footer-bar">
+	<div class="footer-bar" >
 		<div class="container">
 			<div class="row">
-				<div class="span3">
+				<div class="span3" id="contact" data-type="page" data-name="contact">
 					<h3>Stay Connected</h3>
 					<ul class="social-media">
 						<li><a href="https://www.facebook.com/chamsoft1" class="facebook"><i class="icon-facebook"></i></a></li>
@@ -223,7 +226,7 @@ s:13137:"<!DOCTYPE html>
 						<li><a href="https://github.com/guywillett" class="github"><i class="icon-github"></i></a></li>
 						<li><a href="http://uk.linkedin.com/pub/guy-willett/44/697/490" class="linkedin"><i class="icon-linkedin"></i></a></li>
 					</ul>
-					<h4>Contact Us</h4>
+					<h4 >Contact Us</h4>
 					<p>
 					Chamsoft Ltd<br>
 					14 Cautley Avenue<br>
@@ -237,15 +240,17 @@ s:13137:"<!DOCTYPE html>
 				<!--ajax tweets in here-->
                 <div id="tweet-ajax"></div>
 				</div><!--/span5-->
-				<div class="span4">
+				<div class="span4" id="contactform" data-type="page" data-name="contactform">
+                
 					<h3>Get In Touch!</h3>
+                    <ul class ="message-success" style="display:none;"><li class ="message-success" style="display:none;">Thank you for your Message!</li></ul>
 					<!--<form id="contact-form">
 					<input type="text" class="input-block-level" id="inputNameContact" placeholder="Name">
 					<input type="text" class="input-block-level" id="inputEmailContact" placeholder="Email">
 					<textarea rows="3" id="inputMessageContact" class="input-block-level" placeholder="Message"></textarea>
 					<button type="submit" class="btn btn-primary">Send Message</button>
 				</form>-->
-                <form method="post" action=""><div class="form" id="form_5188afb19b967">
+                <form method="post" action="/#/contactform"><div class="form" id="form_51927a90d282f">
 <script language="JavaScript" type="text/javascript">
 // <![CDATA[
 try { $(function(){ $('.error_highlight input:first').focus(); }); } catch(e){};
@@ -272,10 +277,11 @@ try { $(function(){ $('.error_highlight input:first').focus(); }); } catch(e){};
 	<script type="text/javascript">
 //<![CDATA[
 
-if (jQuery){ jQuery(function(){if (jQuery.fn.formBuilder) {if (typeof(window['formBuilderFuncs']) == "undefined") { window['formBuilderFuncs'] = {}; };window['formBuilderFuncs'] = jQuery.extend(window['formBuilderFuncs'], []);jQuery("#form_5188afb19b967").formBuilder(window['formBuilderFuncs']);jQuery("#form_5188afb19b967").formBuilder().initialize();}})}
+if (jQuery){ jQuery(function(){if (jQuery.fn.formBuilder) {if (typeof(window['formBuilderFuncs']) == "undefined") { window['formBuilderFuncs'] = {}; };window['formBuilderFuncs'] = jQuery.extend(window['formBuilderFuncs'], []);jQuery("#form_51927a90d282f").formBuilder(window['formBuilderFuncs']);jQuery("#form_51927a90d282f").formBuilder().initialize();}})}
 //]]>
 </script>
 				</div><!--/span4-->
+                
 			</div><!--/row-->
 		</div><!--/container-->
 	</div><!--/footer-bar-->

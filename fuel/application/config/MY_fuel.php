@@ -26,6 +26,7 @@ $config['modules_allowed'] = array(
 	'user_guide',
 		'blog',
 		'backup',
+		'invoices',
 		//'campaign_monitor',
 		//'clicky',
 		//'google_analytics',
@@ -34,9 +35,10 @@ $config['modules_allowed'] = array(
 );
 
 $config['dashboards'][] = 'backup';
+$config['dashboards'][] = 'invoices';
 
 //$config['dashboard_rss'] = 'http://www.getfuelcms.com/blog/feed/rss';
-$config['dashboard_rss'] = 'http://chamdev.com/blog/feed/rss';
+$config['dashboard_rss'] = 'http://www.chamsoft.co.uk/blog/feed/rss';
 // used for system emails
 $config['domain'] = '';
 
