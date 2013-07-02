@@ -404,7 +404,7 @@ class Fuel_advanced_module extends Fuel_base_library {
 		}
 	}
 
-	// --------------------------------------------------------------------
+	// -------------------------------------------------------------------
 	
 	/**
 	 * Sets a config item for the advanced module
